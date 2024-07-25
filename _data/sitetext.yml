@@ -79,15 +79,21 @@ en: &DEFAULT_EN
     text: "We have a fantastic team of passionate and dedicated vets. We're tight-knit team who've been working together for years and we always have a friendly and cheerful atmosphere."
     subtext: All our vets are highly trained and dedicated to their job. We are accredited professionals specialised in multiple fields of vetinary and strive to maintain the highest levels of education and techniques.
     people:
-      - name: "John Mulligan"
-        role: "Head vet"
-        image: assets/img/team/500x500.jpg
+      - name: "John Mulligan, BVMS"
+        role: "Director & Vet"
+        image: assets/img/team/dog.png
       - name: "Ines Morrison"
         role: "Head honcho"
-        image: assets/img/team/2.jpg
-      - name: "Sara Roche"
+        image: assets/img/team/ines1.png
+      - name: "Sara Roche, BVMS"
         role: "Director & Vet"
         image: assets/img/team/Sara-Roche.jpg
+      - name: "Colin"
+        role: "RN Vet Nurse"
+        image: assets/img/team/ines2.jpeg
+      - name: "Saoirse"
+        role: "Animal Care Assistant"
+        image: assets/img/team/ines3.png
 
   footer:
     legal: "Privacy Policy"
