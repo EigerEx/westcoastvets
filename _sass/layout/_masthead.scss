@@ -1,7 +1,7 @@
 // Styling for the masthead
 header.masthead {
   text-align: center;
-  color: white;
+  color: rgb(241, 209, 27);
   background-image: url("#{$header-image}");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -22,7 +22,8 @@ header.masthead {
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
-      @include heading-font;
+      -webkit-text-stroke: 2px black;
+      @include alfaslab-font;
     }
   }
 }
@@ -43,7 +44,7 @@ header.masthead {
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
-        @include heading-font;
+        @include alfaslab-font;
       }
     }
   }

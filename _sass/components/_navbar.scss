@@ -13,7 +13,9 @@
   }
   .navbar-brand {
     color: $primary;
-    @include script-font;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 1px black;
+    @include alfaslab-font;
     &.active,
     &:active,
     &:focus,
