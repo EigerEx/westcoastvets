@@ -10,3 +10,4 @@ west coast vets static website
 # Other
 - Docs: https://jekyllrb.com/docs/
 - Compare with other vet sites to see what they do
+- free icons https://uxwing.com/technology-icon/. We also import https://fontawesome.com/search?m=free&o=r

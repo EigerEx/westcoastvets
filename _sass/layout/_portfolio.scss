@@ -1,5 +1,8 @@
 // Styling for the portfolio section
 #portfolio {
+    background-image: url("#{$portfolio-image}");
+    background-repeat: no-repeat;
+    background-position: bottom;
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
