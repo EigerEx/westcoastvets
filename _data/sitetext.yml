@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "We offer a plethora of services delivered by our expert staff"
     section: services
     list:
       - title: "Consultations"
@@ -27,9 +27,28 @@ en: &DEFAULT_EN
       - title: "Emergency Care"
         desc: "We're available 24/7 for emergencies!"
         icon: fas fa-laptop
-      - title: "Surgeries & Diagnostics"
+      - title: "Surgeries"
         desc: "We have all the latest tech!"
         icon: fab fa-markdown
+      - title: "Diagnostics"
+        desc: "Heartbeats n crap"
+        image: assets/img/services/stethoscope.svg
+      - title: "Microchipping"
+        desc: "Name & location registrar"
+        image: assets/img/services/microchip.svg
+      - title: "Neutering"
+        desc: "no pups 4 u"
+        image: assets/img/services/shield_cross.svg
+      - title: "Onconology"
+        desc: "I think this detects cancer"
+        image: assets/img/services/microscope.svg
+      - title: "Disease control"
+        desc: "excellent whooping cough removal"
+        image: assets/img/services/paw_print.webp
+      - title: "Dogs covered in grass"
+        desc: "With free extra grass"
+        image: assets/img/services/dog.png
+
 
   portfolio:
     title: "Portfolio"
