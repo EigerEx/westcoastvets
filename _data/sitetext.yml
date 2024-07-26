@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: welcome to
+    title: 
     text: West Coast Vets
     button: What we do
     buttonlink: "#services"
@@ -39,7 +39,7 @@ en: &DEFAULT_EN
       - title: "Neutering"
         desc: "no pups 4 u"
         image: assets/img/services/shield_cross.svg
-      - title: "Onconology"
+      - title: "Oncology"
         desc: "I think this detects cancer"
         image: assets/img/services/microscope.svg
       - title: "Disease control"
@@ -48,13 +48,20 @@ en: &DEFAULT_EN
       - title: "Dogs covered in grass"
         desc: "With free extra grass"
         image: assets/img/services/dog.png
-
+      - title: "Soft tissue & Cancer"
+        desc: "Tumours and activity"
+        image: assets/img/services/xray.jpg
+      - title: "Orthopedeics"
+        desc: "Broken Bones etc"
+        image: assets/img/services/helicow.jpeg
+      - title: "Brain & Spine"
+        desc: "Any nervous system injuries"
+        image: assets/img/services/xray.jpg
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Sounds good!"
 
   timeline:
     title: "Timeline"
@@ -65,22 +72,22 @@ en: &DEFAULT_EN
     events:
       - title: "Our Humble Beginnings"
         year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: "Sara and John study and learn how to become vets. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
+      - title: "West Coast Vets is born in Barna"
         year: "March 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+        image: assets/img/timeline/2.jpeg
         alt:
-      - title: "Jekyll Theme is created"
+      - title: "Everyone lvoes us"
         year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        desc: "We fixed all the dogs"
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "We move to a new office"
+        year: "2023"
+        desc: "We get brand spanking new office, with all the latest technologies and comforts."
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
@@ -89,7 +96,7 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our story"
+    text: "our mission"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
 

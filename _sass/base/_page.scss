@@ -15,6 +15,16 @@ a {
   }
 }
 
+.section-heading-yellow {
+  color: $highlight;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 1px black;
+  @include alfaslab-font;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
 .text-primary {
   color: $primary !important;
 }
