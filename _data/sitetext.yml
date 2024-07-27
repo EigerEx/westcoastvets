@@ -11,10 +11,17 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: 
-    text: West Coast Vets
-    button: What we do
-    buttonlink: "#services"
+    title: West Coast Vets
+    text:
+    buttons:
+      - name: "services"
+        title: "What we do"
+        icon: "fas fa-dog"
+        buttonlink: "#services"
+      - name: "contact"
+        title: "Emergency"
+        icon: fas fa-bolt
+        buttonlink: "#contact"
 
   services:
     title: "Services"

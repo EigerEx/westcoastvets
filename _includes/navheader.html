@@ -49,15 +49,20 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-	  {%- if site.data.sitetext[site.locale].header.title -%}
-        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.text -%}
-        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
-	  {%- endif -%}
-	  {%- if site.data.sitetext[site.locale].header.button -%}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger masthead-button" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
-	  {%- endif -%}
+        {%- if site.data.sitetext[site.locale].header.text -%}
+        <div class="intro-lead-in">{{ sßite.data.sitetext[site.locale].header.text | markdownify }}</div>
+        {%- endif -%}
+          {%- if site.data.sitetext[site.locale].header.title -%}
+            <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
+          {%- endif -%}
+          <div class="d-flex flex-column align-items-center masthead-buttons">
+            {% for button in site.data.sitetext[site.locale].header.buttons %}
+              <a class="masthead-button btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ button.buttonlink }}">
+                {% if button.icon %} <i class="{{ button.icon }} masthead-button-icon"></i>{% endif %}
+                {{ button.name }}
+              </a>
+            {% endfor %}
+        </div>
       </div>
     </div>
   </header>

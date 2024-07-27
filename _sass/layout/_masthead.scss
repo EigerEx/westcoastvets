@@ -30,6 +30,13 @@ header.masthead {
   .masthead-button{
     border: 3px $black solid;
     box-shadow: 12px 12px $black;
+    color: $black;
+    margin-top: 30px;
+    padding: 15px 30px;
+  }
+  .masthead-button-icon{
+    margin-right: 5px;
+    height: 100%;
   }
 }
 @media (min-width: 768px) {
