@@ -96,14 +96,14 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our mission"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "our mission and values"
+    body: "**care** - we love our animaux. **compassion** - we respect your pets **qualifications** - we strive to maintain the highest scientific knowledge"
     section: about
 
   team:
     title: "OUR AMAZING TEAM"
     text: "We have a fantastic team of passionate and dedicated vets. We're tight-knit team who've been working together for years and we always have a friendly and cheerful atmosphere."
-    subtext: All our vets are highly trained and dedicated to their job. We are accredited professionals specialised in multiple fields of vetinary and strive to maintain the highest levels of education and techniques.
+    subtext: All our vets are highly trained and dedicated to their job. We're committed to bringing you the best in pet healthcare. We are accredited professionals specialised in multiple fields of vetinary and strive to maintain the highest levels of education and techniques.
     people:
       - name: "John Mulligan, BVMS"
         role: "Director & Vet"
@@ -121,8 +121,18 @@ en: &DEFAULT_EN
         role: "Animal Care Assistant"
         image: assets/img/team/ines3.png
 
+  certifications:
+    text: "West Coast Vets is accredited and regualted by the following bodies"
+    footer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: certifications
+    certs:
+      - name: VCI
+        logo: assets/img/certifications/VCI.png
+        description: "Vetinary Council of Ireland"
+
   footer:
     legal: "Privacy Policy"
+    cro-number: "605801"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
