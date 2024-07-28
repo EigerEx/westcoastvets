@@ -3,7 +3,10 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
+
         <h3 class="section-heading-yellow"> {{ site.data.sitetext[site.locale].contact.text }}</h3>
+
+        <!-- phone numbers -->
         {% for phone in site.data.sitetext[site.locale].contact.phones %}
         <row class="row justify-content-center">
           <a class="contact-phone"
@@ -15,6 +18,28 @@
         </row>
         {% endfor %}
 
+        <!-- email  -->
+        <row class="row justify-content-center">
+          <a class="contact-email d-flex">
+            <i class="{{ site.data.sitetext[site.locale].contact.email-icon }} contact-email-icon"></i>
+            <div class="contact-phone-text">{{ site.data.sitetext[site.locale].contact.email }}</div>
+          </a>
+        </row>
+
+        <!-- address  -->
+        <row class="row justify-content-center">
+          <a class="contact-address d-flex">
+            <row>
+              <i class="{{ site.data.sitetext[site.locale].contact.address-icon }} contact-address-icon"></i>
+              <div class="contact-address-eircode">{{ site.data.sitetext[site.locale].contact.address-eircode }}</div>
+            </row>
+            <row class="d-flex text-center">
+              <div class="contact-address-text">{{ site.data.sitetext[site.locale].contact.address-text }}</div>
+            </row>
+          </a>
+        </row>
+
+          <!-- timetable and map block -->
         <div class="d-flex row contact-row">
           <div class="contact-timetable col-lg-6">
             <table class="table table-striped table-light table-bordered table-hover">

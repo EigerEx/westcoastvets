@@ -151,8 +151,10 @@ en: &DEFAULT_EN
       - number: "087 256 1554"
         icon: "fas fa-solid fa-phone-volume"
     email: westcoastvetsbearna@outlook.com
-    eircode: H91 F827
-    address: "Truskey West Bearna, Co.Galway"
+    email-icon: "fas fa-solid fa-envelope-open-text"
+    address-eircode: H91 F827
+    address-text: "Truskey West Bearna, Co.Galway"
+    address-icon: "fas fa-solid fa-map-location-dot"
     table-name: "Opening hours"
     timetable:
       - day: Mon-fri

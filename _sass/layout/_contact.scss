@@ -24,6 +24,31 @@ section#contact {
       float: right;
     }
   }
+  .contact-email{
+    color: $highlight;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: monospace;
+    .contact-email-icon{
+      padding-right: 10px;
+      color: rgb(250, 66, 66);
+    }
+  }
+  .contact-address{
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: $highlight;
+    .contact-address-text{
+      font-family: monospace;
+    }
+    .contact-address-eircode{
+      font-family: monospace;
+    }
+    .contact-address-icon{
+      padding-right: 10px;
+      color: rgb(250, 66, 66);
+    }
+  }
   .contact-timetable{
     border: 8px solid $highlight;
     background-color: $gray-200;
@@ -40,42 +65,5 @@ section#contact {
   }
   .section-heading {
     color: $white;
-  }
-  .form-group {
-    margin-bottom: 25px;
-    input,
-    textarea {
-      padding: 20px;
-    }
-    input.form-control {
-      height: auto;
-    }
-    textarea.form-control {
-      height: 248px;
-    }
-  }
-  .form-control:focus {
-    border-color: $primary;
-    box-shadow: none;
-  }
-  ::-webkit-input-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  :-moz-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  ::-moz-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
-  }
-  :-ms-input-placeholder {
-    font-weight: 700;
-    color: $gray-400;
-    @include heading-font;
   }
 }
