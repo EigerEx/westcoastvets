@@ -18,7 +18,7 @@
         </row>
         {% endfor %}
 
-        <!-- email  -->
+        <!-- email -->
         <row class="row justify-content-center">
           <a class="contact-email d-flex">
             <i class="{{ site.data.sitetext[site.locale].contact.email-icon }} contact-email-icon"></i>
@@ -26,18 +26,16 @@
           </a>
         </row>
 
-        <!-- address  -->
+        <!-- address -->
+        <div class="contact-address">
         <row class="row justify-content-center">
-          <a class="contact-address d-flex">
-            <row>
-              <i class="{{ site.data.sitetext[site.locale].contact.address-icon }} contact-address-icon"></i>
-              <div class="contact-address-eircode">{{ site.data.sitetext[site.locale].contact.address-eircode }}</div>
-            </row>
-            <row class="d-flex text-center">
-              <div class="contact-address-text">{{ site.data.sitetext[site.locale].contact.address-text }}</div>
-            </row>
-          </a>
+            <i class="{{ site.data.sitetext[site.locale].contact.address-icon }} contact-address-icon"></i>
+            <div class="contact-address-eircode">{{ site.data.sitetext[site.locale].contact.address-eircode }}</div>
         </row>
+        <row class="row justify-content-center">
+            <div class="contact-address-text">{{ site.data.sitetext[site.locale].contact.address-text }}</div>
+          </row>
+        </div>
 
           <!-- timetable and map block -->
         <div class="d-flex row contact-row">
