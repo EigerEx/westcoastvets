@@ -33,6 +33,10 @@ header.masthead {
     color: $black;
     margin-top: 30px;
     padding: 15px 30px;
+    &:hover {
+      border: 5px red;
+      color: red;
+    }
   }
   .masthead-button-icon{
     margin-right: 5px;

@@ -23,15 +23,23 @@ section#contact {
     .contact-phone-text{
       float: right;
     }
+    .contact-phone-linked{
+      &:focus,
+      &:active,
+      &:hover{
+        font-style: underline;
+        color: red;
+      }
+    }
   }
   .contact-email{
     color: $highlight;
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 35px;
     font-family: monospace;
     .contact-email-icon{
-      padding-right: 10px;
-      color: rgb(250, 66, 66);
+      padding-right: 15px;
+      color: rgb(2, 214, 129);
     }
   }
   .contact-address{

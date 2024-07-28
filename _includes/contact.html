@@ -13,7 +13,7 @@
             {% if phone.number-tel-link %} href="tel:{{ phone.number-tel-link }}" {% endif %}
           >
             {% if phone.icon %} <i class="{{ phone.icon }} contact-phone-icon"></i>{% endif %}
-            <div class="contact-phone-text">{{ phone.number }}</div>
+            <div class="contact-phone-text {% if phone.number-tel-link %} contact-phone-linked {% endif %}">{{ phone.number }}</div>
           </a>
         </row>
         {% endfor %}
