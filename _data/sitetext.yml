@@ -154,7 +154,7 @@ en: &DEFAULT_EN
     email-icon: "fas fa-solid fa-envelope-open-text"
     address-eircode: H91 F827
     address-text: "Truskey West, Bearna, Co.Galway"
-    address-icon: "fas fa-solid fa-map-location-dot"
+    address-icon: "fas fa-solid fa-2xl fa-map-location-dot"
     table-name: "Opening hours"
     timetable:
       - day: Mon-fri
