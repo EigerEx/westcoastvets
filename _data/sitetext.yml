@@ -147,6 +147,22 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://www.instagram.com/westcoastvetsire
         icon: "fab fa-instagram"
+
+  contact:
+    text: "Contact us"
+    section: "contact"
+    caption: "We may be unavailable during lunch (13:00-14:00)"
+    table-name: "Opening hours"
+    timetable:
+      - day: Mon-fri
+        status: "09:00 - 18:00"
+      - day: Saturday
+        status: "10:00 - 14:00"
+      - day: Sunday
+        status: closed
+      - day: Bank holidays
+        status: "closed"
+
 en-US:
   <<: *DEFAULT_EN
 en-CA:

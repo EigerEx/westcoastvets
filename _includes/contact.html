@@ -1,33 +1,34 @@
 <!-- Contact -->
-{% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="page-section" id="{{ site.data.sitetext[site.locale].contact.section | default: "contact" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">
-          {{ site.data.sitetext[site.locale].contact.title | markdownify | default: Contact Us }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].contact.text | default: "" }}</h3>\
-        <h3> contact us<br> This is a threat</h3>
-        <!-- how to change zoom: https://stackoverflow.com/questions/37747801/wordpress-need-to-set-zoom-level-in-google-embedded-map-iframe -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19309.10270194732!2d-9.160558527500683!3d53.2541425068472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485bbda0916c2289%3A0x530b791b5ec43ca1!2sWest%20Coast%20Vets%20Ltd.!5e0!3m2!1sen!2sie!4v1722027395624!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="row">
-    </div>
-  </div>
-</section>
-{% else %}
-<section class="page-section" id="{{ site.data.sitetext.contact.section | default: "contact" }}">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">
-          {{ site.data.sitetext.contact.title | markdownify | default: Contact Us }}</h2>
-        <h3 class="section-subheading text-muted">{{ site.data.sitetext.contact.text | default: "" }}</h3>
+        <h3 class="section-heading-yellow"> {{ site.data.sitetext[site.locale].contact.text }}</h3>
+        <div class="d-flex row contact-row">
+          <div class="contact-timetable col-lg-6">
+            <table class="table table-striped table-light table-bordered table-hover">
+              <caption class="text-muted text-center">  {{ site.data.sitetext[site.locale].contact.caption }} </caption>
+              <thead>
+                <tr class="text-center"> <th colspan="2"> {{ site.data.sitetext[site.locale].contact.table-name }} </th></tr>
+              </thead>
+              <tbody>
+                {% for row in site.data.sitetext[site.locale].contact.timetable %}
+                <tr> <td> {{ row.day }}</td> <td> {{ row.status }} </td> </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <div class="contact-map col-lg-6">
+          <!-- MAP EMBED: how to change zoom: https://stackoverflow.com/questions/37747801/wordpress-need-to-set-zoom-level-in-google-embedded-map-iframe -->
+            <iframe class="contact-map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19309.10270194732!2d-9.160558527500683!3d53.2541425068472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485bbda0916c2289%3A0x530b791b5ec43ca1!2sWest%20Coast%20Vets%20Ltd.!5e0!3m2!1sen!2sie!4v1722027395624!5m2!1sen!2sie"
+              loading="lazy" allowfullscreen="0" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
     </div>
   </div>
 </section>
-{% endif %}
 <!-- End Contact -->
