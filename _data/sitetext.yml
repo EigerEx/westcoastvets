@@ -9,7 +9,6 @@
 
 # English (default)
 # -----------------
-favicon: "assets/img/favicon.png"
 en: &DEFAULT_EN
   header:
     title: West Coast Vets
@@ -172,8 +171,6 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     cro-number: "605801"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
       - url: https://www.facebook.com/p/West-Coast-Vets-100063888707826/
         icon: "fab fa-facebook-f"
       - url: https://www.instagram.com/westcoastvetsire
