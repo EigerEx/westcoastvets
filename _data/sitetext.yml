@@ -24,9 +24,9 @@ en: &DEFAULT_EN
         buttonlink: "#contact"
 
   services:
+    section: services
     title: "Services"
     text: "We offer a plethora of services delivered by our expert staff"
-    section: services
     list:
       - title: "Consultations"
         desc: "We offer excellent pet consultations!"
@@ -66,8 +66,8 @@ en: &DEFAULT_EN
         image: assets/img/services/xray.jpg
 
   portfolio:
-    title: "Portfolio"
     section: portfolio
+    title: "Portfolio"
     closebutton: "Sounds good!"
 
   timeline:
@@ -129,13 +129,41 @@ en: &DEFAULT_EN
         image: assets/img/team/ines3.png
 
   certifications:
+    section: certifications
     text: "West Coast Vets is accredited and regualted by the following bodies"
     footer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: certifications
     certs:
       - name: VCI
         logo: assets/img/certifications/VCI.png
         description: "Vetinary Council of Ireland"
+
+
+  contact:
+    section: "contact"
+    text: "Contact us"
+    phones:
+      - number: "091 867455"
+        number-tel-link: "+35391867455"
+        icon: "fas fa-solid fa-phone"
+        comment: "office phone"
+      - number: "087 707 9696"
+        icon: "fas fa-solid fa-blender-phone"
+      - number: "087 256 1554"
+        icon: "fas fa-solid fa-phone-volume"
+    email: westcoastvetsbearna@outlook.com
+    eircode: H91 F827
+    address: "Truskey West Bearna, Co.Galway"
+    table-name: "Opening hours"
+    timetable:
+      - day: Mon-fri
+        status: "09:00 - 18:00"
+      - day: Saturday
+        status: "10:00 - 14:00"
+      - day: Sunday
+        status: closed
+      - day: Bank holidays
+        status: "closed"
+    timetable-caption: "We may be unavailable during lunch (13:00-14:00)"
 
   footer:
     legal: "Privacy Policy"
@@ -147,21 +175,6 @@ en: &DEFAULT_EN
         icon: "fab fa-facebook-f"
       - url: https://www.instagram.com/westcoastvetsire
         icon: "fab fa-instagram"
-
-  contact:
-    text: "Contact us"
-    section: "contact"
-    caption: "We may be unavailable during lunch (13:00-14:00)"
-    table-name: "Opening hours"
-    timetable:
-      - day: Mon-fri
-        status: "09:00 - 18:00"
-      - day: Saturday
-        status: "10:00 - 14:00"
-      - day: Sunday
-        status: closed
-      - day: Bank holidays
-        status: "closed"
 
 en-US:
   <<: *DEFAULT_EN

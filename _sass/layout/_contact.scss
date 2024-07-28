@@ -10,6 +10,20 @@ section#contact {
   //   padding-top: 5%;
   //   padding-bottom: 5%;
   // }
+  .contact-phone{
+    color: $highlight;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: monospace;
+    width: 160px;
+    .contact-phone-icon{
+      float: left;
+      color: $pink;
+    }
+    .contact-phone-text{
+      float: right;
+    }
+  }
   .contact-timetable{
     border: 8px solid $highlight;
     background-color: $gray-200;

@@ -4,10 +4,21 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h3 class="section-heading-yellow"> {{ site.data.sitetext[site.locale].contact.text }}</h3>
+        {% for phone in site.data.sitetext[site.locale].contact.phones %}
+        <row class="row justify-content-center">
+          <a class="contact-phone"
+            {% if phone.number-tel-link %} href="tel:{{ phone.number-tel-link }}" {% endif %}
+          >
+            {% if phone.icon %} <i class="{{ phone.icon }} contact-phone-icon"></i>{% endif %}
+            <div class="contact-phone-text">{{ phone.number }}</div>
+          </a>
+        </row>
+        {% endfor %}
+
         <div class="d-flex row contact-row">
           <div class="contact-timetable col-lg-6">
             <table class="table table-striped table-light table-bordered table-hover">
-              <caption class="text-muted text-center">  {{ site.data.sitetext[site.locale].contact.caption }} </caption>
+              <caption class="text-muted text-center">  {{ site.data.sitetext[site.locale].contact.timetable-caption }} </caption>
               <thead>
                 <tr class="text-center"> <th colspan="2"> {{ site.data.sitetext[site.locale].contact.table-name }} </th></tr>
               </thead>
