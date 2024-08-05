@@ -43,37 +43,6 @@ en: &DEFAULT_EN
     title: "Portfolio"
     closebutton: "Sounds good!"
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Sara and John study and learn how to become vets. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "West Coast Vets is born in Barna"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpeg
-        alt:
-      - title: "Everyone lvoes us"
-        year: "2019"
-        desc: "We fixed all the dogs"
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "We move to a new office"
-        year: "2023"
-        desc: "We get brand spanking new office, with all the latest technologies and comforts."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
-
   about:
     title: "About Us"
     text: "our mission and values"
