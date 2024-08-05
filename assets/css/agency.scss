@@ -41,6 +41,7 @@ $portfolio-image: "{{ site.data.style.portfolio-image }}";
 @import "layout/services.scss";
 @import "layout/certifications.scss";
 @import "layout/portfolio.scss";
+@import "layout/about.scss";
 @import "layout/timeline.scss";
 @import "layout/team.scss";
 @import "layout/contact.scss";
