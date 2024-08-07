@@ -11,16 +11,22 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      url: services
-    - title: "Portfolio"
-      section: portfolio
-    - title: "About"
-      section: about
-    - title: "Team"
-      section: team
-    - title: "Contact"
-      section: contact
+    items:
+      - title: "Portfolio"
+        section: portfolio
+      - title: "About"
+        section: about
+      - title: "Team"
+        section: team
+      - title: "Contact"
+        section: contact
+    services:
+      - title: "small"
+        url: services
+      - title: "big"
+        url: services
+      - title: "equine"
+        url: services
 en-US:
   <<: *DEFAULT_EN
 en-CA:

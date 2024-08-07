@@ -38,9 +38,13 @@
         }
       }
     }
+    .services-dropdown-menu {
+      background-color: transparent;
+      padding-left: 10px;
+    }
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -56,12 +60,24 @@
       transition: all 0.3s;
     }
     .navbar-nav {
+      .services-dropdown-menu{
+        background-color: transparent;
+        border: 2px solid $white;
+      }
       .nav-item {
         .nav-link {
           padding: 1.1em 1em !important;
         }
       }
     }
+    // Open dropdown menu when the dropdown item is hovered
+    .services-dropdown:hover .services-dropdown-menu {
+      display: block;
+      margin-top: 0px;
+      background-color: transparent;
+      border: 2px solid $white;
+    }
+    // Enter this when scrolling down
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
@@ -69,6 +85,12 @@
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+      }
+      .services-dropdown:hover .services-dropdown-menu {
+        display: block;
+        margin-top: 0px;
+        background-color: $gray-900;
+        border: 2px solid $gray-900;
       }
     }
   }
