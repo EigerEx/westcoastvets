@@ -36,6 +36,68 @@ en: &DEFAULT_EN
       - title: "Equine"
         desc: "Pre-purchase vetting, ultrasounds, x-rays, blood tests, reproduction services"
         icon: fas fa-horse
+  services_small:
+    section: services_small
+    title: "Small Animals Services"
+    text: "We offer a plethora of services delivered by our expert staff"
+    list:
+      - title: "Consultations"
+        desc: "We offer excellent pet consultations!"
+        icon: fas fa-shopping-cart
+      - title: "Emergency Care"
+        desc: "We're available 24/7 for emergencies!"
+        icon: fas fa-laptop
+      - title: "Surgeries"
+        desc: "We have all the latest tech!"
+        icon: fab fa-markdown
+      - title: "Diagnostics"
+        desc: "Heartbeats n crap"
+        image: assets/img/services/stethoscope.svg
+      - title: "Microchipping"
+        desc: "Name & location registrar"
+        image: assets/img/services/microchip.svg
+      - title: "Neutering"
+        desc: "no pups 4 u"
+        image: assets/img/services/shield_cross.svg
+      - title: "Oncology"
+        desc: "I think this detects cancer"
+        image: assets/img/services/microscope.svg
+  services_large:
+    section: services_large
+    title: "Large Animal Services"
+    text: "We offer a plethora of services delivered by our expert staff"
+    list:
+      - title: "Consultations"
+        desc: "We offer excellent pet consultations!"
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Emergency Care"
+        desc: "We're available 24/7 for emergencies!"
+        icon: fas fa-laptop
+      - title: "Surgeries"
+        desc: "We have all the latest tech!"
+        icon: fab fa-markdown
+      - title: "Diagnostics"
+        desc: "Heartbeats n crap"
+        image: assets/img/services/stethoscope.svg
+      - title: "Microchipping"
+        desc: "Name & location registrar"
+        image: assets/img/services/microchip.svg
+      - title: "Neutering"
+        desc: "no pups 4 u"
+        image: assets/img/services/shield_cross.svg
+      - title: "Oncology"
+        desc: "I think this detects cancer"
+        image: assets/img/services/microscope.svg
+  services_equine:
+    section: services_equine
+    title: "Equine Services"
+    text: "We offer a plethora of services delivered by our expert staff"
+    list:
+      - title: "Disease control"
+        desc: "excellent whooping cough removal"
+        image: assets/img/services/paw_print.webp
+      - title: "Dogs covered in grass"
+        desc: "With free extra grass"
 
   portfolio:
     section: portfolio
