@@ -37,9 +37,9 @@ $portfolio-image: "{{ site.data.style.portfolio-image }}";
 @import "components/client-scroll.scss";
 
 // Layout
-@import "layout/masthead.scss";
+@import "layout/header.scss";
 @import "layout/services.scss";
-@import "layout/services_types.scss";
+@import "layout/services_categories.scss";
 @import "layout/certifications.scss";
 @import "layout/portfolio.scss";
 @import "layout/about.scss";

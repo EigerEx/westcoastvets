@@ -1,0 +1,38 @@
+.service-category-header{
+  text-align: center;
+  color: $highlight;
+  background-image: url("#{$header-image}");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  .service-text{
+    padding-top: 150px;
+    padding-bottom: 50x;
+    .service-heading{
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 25px;
+      -webkit-text-stroke: 2px $black;
+      text-shadow: 2px 2px $highlight;
+      @include alfaslab-font;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .service-category-header {
+    .service-text{
+      padding-top: 200px;
+      padding-bottom: 50px;
+      .service-heading{
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 50px;
+        @include alfaslab-font;
+      }
+    }
+  }
+}

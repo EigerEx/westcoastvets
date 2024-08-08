@@ -16,6 +16,7 @@ en: &DEFAULT_EN
         section: portfolio
       - title: "About"
         section: about
+        url: /
       - title: "Team"
         section: team
       - title: "Contact"
