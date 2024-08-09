@@ -1,17 +1,17 @@
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
+  background-color: $dark;
   background-image: url("#{$contact-image}");
   background-repeat: no-repeat;
   background-position: center;
   // .contact-row{
-  //   background-color: $highlight;
+  //   background-color: $yellow;
   //   border: 5px $gray-200 solid;
   //   padding-top: 5%;
   //   padding-bottom: 5%;
   // }
   .contact-phone{
-    color: $highlight;
+    color: $yellow;
     margin-top: 0;
     margin-bottom: 15px;
     font-family: monospace;
@@ -33,7 +33,7 @@ section#contact {
     }
   }
   .contact-email{
-    color: $highlight;
+    color: $yellow;
     margin-top: 20px;
     margin-bottom: 35px;
     font-family: monospace;
@@ -45,7 +45,7 @@ section#contact {
   .contact-address{
     margin-top: 0;
     margin-bottom: 15px;
-    color: $highlight;
+    color: $yellow;
     .contact-address-text{
       font-family: monospace;
       font-style: italic;
@@ -60,11 +60,11 @@ section#contact {
     }
   }
   .contact-timetable{
-    border: 8px solid $highlight;
+    border: 8px solid $yellow;
     background-color: $gray-200;
   }
   .contact-map{
-    border: 8px solid $highlight;
+    border: 8px solid $yellow;
     padding-left: 0;
     padding-right: 0;
   }

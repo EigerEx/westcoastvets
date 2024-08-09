@@ -17,6 +17,9 @@
     margin-bottom: 50px;
     text-align: center;
   }
+  .service-icon{
+    color: $yellow;
+  }
   .service-image {
     position: relative;
     z-index: 100;
@@ -26,10 +29,11 @@
     padding: 5%;
     text-align: center;
     justify-content: center;
+
     color: $white;
     border: 7px solid $gray-200;
     border-radius: 100%;
-    background-color: $primary;
+    background-color: $yellow;
   }
   .h4 {
     font-size: 10px;
@@ -37,6 +41,29 @@
     margin-top: 25px;
   }
 }
+.service-category-header{
+  text-align: center;
+  color: $yellow;
+  background-image: url("#{$header-image}");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  .service-text{
+    padding-top: 150px;
+    padding-bottom: 50x;
+    .service-heading{
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 25px;
+      -webkit-text-stroke: 2px $black;
+      text-shadow: 2px 2px $yellow;
+      @include alfaslab-font;
+    }
+  }
+}
+
 @media (min-width: 768px) {
   .service {
   .service-panel {
@@ -56,6 +83,19 @@
     line-height: 18px;
     margin-top: 25px;
   }
+  }
+  .service-category-header {
+    .service-text{
+      padding-top: 200px;
+      padding-bottom: 50px;
+      .service-heading{
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 50px;
+        @include alfaslab-font;
+      }
+    }
   }
 }
 @media (min-width: 992px) {
@@ -92,4 +132,3 @@
     }
 }
 }
-

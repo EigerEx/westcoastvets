@@ -10,7 +10,7 @@
         {%- endif -%}
         <div class="d-flex flex-column align-items-center masthead-buttons">
           {% for button in site.data.sitetext[site.locale].header.buttons %}
-            <a class="masthead-button btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ button.buttonlink }}">
+            <a class="masthead-button btn btn-xl text-uppercase js-scroll-trigger" href="{{ button.buttonlink }}">
               {% if button.icon %} <i class="{{ button.icon }} masthead-button-icon"></i>{% endif %}
               {{ button.name }}
             </a>

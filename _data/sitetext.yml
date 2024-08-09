@@ -2,7 +2,7 @@
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
 # Configuration: Add to _config.yml
-# locale: "en-GB"  [YOUR PREFERRED LOCALE]
+# locale: en-GB  [YOUR PREFERRED LOCALE]
 #
 # How to use:
 # {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
@@ -11,173 +11,213 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: "West Coast Vets"
+    title: West Coast Vets
     buttons:
-      - name: "services"
-        title: "What we do"
-        icon: "fas fa-dog"
-        buttonlink: "#services"
-      - name: "contact"
-        title: "Emergency"
+      - name: services
+        title: What we do
+        icon: fas fa-dog
+        buttonlink: #services
+      - name: contact
+        title: Emergency
         icon: fas fa-bolt
-        buttonlink: "#contact"
+        buttonlink: #contact
 
   services:
     section: services
-    title: "Services"
-    text: "We offer a plethora of services delivered by our expert staff"
+    title: Services
+    text: We offer a plethora of services delivered by our expert staff
     list:
-      - title: "Small Animals"
-        desc: "Surgery, dental, neutering, vaccination, microchipping"
+      - title: Small Animals
+        desc: Surgery, dental, neutering, vaccination, microchipping
         icon: fas fa-dog #find more at https://fontawesome.com/icons
-      - title: "Large Animals"
-        desc: "Consultations, on-farm visits, TB testing"
+      - title: Large Animals
+        desc: Consultations, on-farm visits, TB testing
         icon: fas fa-cow
-      - title: "Equine"
-        desc: "Pre-purchase vetting, ultrasounds, x-rays, blood tests, reproduction services"
+      - title: Equine
+        desc: Pre-purchase vetting, ultrasounds, x-rays, blood tests, reproduction services
         icon: fas fa-horse
   services_small:
     section: services_small
-    title: "Small Animals Services"
-    text: "We offer a plethora of services delivered by our expert staff"
+    title: Small Animals Services
+    text: We offer a plethora of services delivered by our expert staff
     list:
-      - title: "Consultations"
-        desc: "We offer excellent pet consultations!"
+      - title: Vaccinations & Health Checks
+        desc: We strongly recommend bringing your pet to the vet at least once a year. These annual check-ups are essential for picking up any health concerns. These comprehensive exams include a thorough physical assessment, vaccinations and preventative care tailored to your pet’s age and needs. Regular health checks help detect potential issues early, ensuring timely treatment and promoting overall well-being. Vaccinations are essential in protecting your pet against potentially fatal diseases.
         icon: fas fa-shopping-cart
-      - title: "Emergency Care"
-        desc: "We're available 24/7 for emergencies!"
-        icon: fas fa-laptop
-      - title: "Surgeries"
-        desc: "We have all the latest tech!"
+      - title: Pet Passport
+        desc: Travelling can be stressful! Let us help you to minimise that stress by making sure your pet is all-set for their travels. We will provide the necessary vaccinations, health checks and documentation required for your international travel. Let us help you create unforgettable adventures with your pet!
+        icon: fas fa-passport
+      - title: Microchipping
+        desc: The mandatory microchipping of dogs came into effect in 2015 under the Animal Health & Welfare Act 2013. This simple procedure provides a permanent identification solution, ensuring your furry friend can be easily returned if lost. Our team will guide you through the process and register your pet’s information in the national database, FIDO. Protect your pet and gain peace of mind. Microchip your pet today!
         icon: fab fa-markdown
-      - title: "Diagnostics"
-        desc: "Heartbeats n crap"
-        image: assets/img/services/stethoscope.svg
-      - title: "Microchipping"
-        desc: "Name & location registrar"
-        image: assets/img/services/microchip.svg
-      - title: "Neutering"
-        desc: "no pups 4 u"
-        image: assets/img/services/shield_cross.svg
-      - title: "Oncology"
-        desc: "I think this detects cancer"
-        image: assets/img/services/microscope.svg
+      - title: Neutering/Spaying
+        desc: There are numerous advantages to neutering/spaying your pet. It can help manage pet populations, and improve your pet’s health. These procedures can prevent certain diseases, reduce behavioural issues, and contribute to a longer, healthier life for your pet. Our team will provide compassionate care before, during and after the surgery, ensuring a smooth recovery.
+        icon: fas fa-scissors
+      - title: Ultrasonography
+        desc: We offer non-invasive ultrasound services for precise diagnostics and monitoring. This allows our veterinarians to visualise internal organs in real-time, aiding in the detection of heart diseases, liver and kidney issues, and reproductive health concerns.
+        icon: fas fa-tower-cell
+      - title: Radiography
+        desc: Our in-house x-rays allow us to see the full picture of what is going on with your pet. We can view internal organs, observe bone structure, assess if your pet is developing arthritis in their old age, or if they have eaten something they shouldn’t have…
+        icon: fas fa-x-ray
+      - title: In-house biochemistry & haematology
+        desc: Our clinic offers in-house biochemistry and haematology bloodwork. These advanced tests allow us to assess your pet’s organ function, detect infections, and monitor overall health, allowing us to provide immediate and effective care with the latest diagnostic technology.
+        icon: fas fa-flask-vial
+      - title: Dental services
+        desc: From routine descale & polishes, to advanced dental procedures, our team ensures optimal oral care. We also provide dental radiography for accurate diagnosis and treatment of dental issues. Trust us to maintain your pet’s oral health and overall well-being with our expert care.
+        icon: fas fa-tooth
+      - title: New puppy/kitten clinic
+        desc: We want to give your young pet the best start in life. Our new pippy/kitten consultations include essential vaccinations, an overall health check, nutritional advice and behavioural advice. Our caring team will support you every step of the way, ensuring your new furry family member grows up happy and healthy!
+        icon: fas fa-dog
+      - title: Senior clinic
+        desc: We believe that our beloved pets that are entering their ‘golden years’, deserve a little extra TLC. These comprehensive check-ups include a thorough nose-to-tail examination, nutritional advice, bloodwork, dental check, and tailored health plans to address common age-related issues. Our team will provide expert care and support for your senior pet’s unique needs, enhancing their quality of life. “*My face may be white, but my heart is pure gold. There is no shame in growing old*”.
+        icon: fas fa-person-cane
+      - title: Exotics & Wildlife
+        desc: From treating injured hedgehogs to performing beak & claw trims on parrots, our team is ready and willing to help
+        icon: fas fa-dragon
+      - title: Nutrition & Food
+        desc: We stock a wide range for both cats and dogs from CALIBRA, including puppy/kitten, junior & adult maintenance, senior diets and veterinary specialist diets. Speak to a member of the team to find the right food for your pet!
+        icon: fas fa-utensils
   services_large:
     section: services_large
-    title: "Large Animal Services"
-    text: "We offer a plethora of services delivered by our expert staff"
+    title: Large Animal Services
+    text: We offer a plethora of services delivered by our expert staff
     list:
-      - title: "Consultations"
-        desc: "We offer excellent pet consultations!"
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Emergency Care"
-        desc: "We're available 24/7 for emergencies!"
-        icon: fas fa-laptop
-      - title: "Surgeries"
-        desc: "We have all the latest tech!"
-        icon: fab fa-markdown
-      - title: "Diagnostics"
-        desc: "Heartbeats n crap"
-        image: assets/img/services/stethoscope.svg
-      - title: "Microchipping"
-        desc: "Name & location registrar"
-        image: assets/img/services/microchip.svg
-      - title: "Neutering"
-        desc: "no pups 4 u"
-        image: assets/img/services/shield_cross.svg
-      - title: "Oncology"
-        desc: "I think this detects cancer"
-        image: assets/img/services/microscope.svg
+      - title: Call-outs & 24hr emergency service
+        desc: We provide 24hr emergency service for all registered large animal clients.
+        icon: fas fa-cloud-moon-rain #find more at https://fontawesome.com/icons
+      - title: Bovine scanning
+        desc: We offer bovine scanning for pregnancy checks, ensuring the health and productivity of your herd. Our advanced ultrasound technology allows for early and accurate detection of pregnancy, helping you manage your breeding programs effectively.
+        icon: fas fa-podcast
+      - title: TB testing
+        desc: We offer T.B testing service to our large animal clients. Our experienced veterinarians will conduct thorough testing and offer expert guidance to help maintain the well-being of your livestock.
+        icon: fas fa-lungs-virus
+      - title: Dehoring/Debudding
+        desc: We offer safe and humane debudding and dehorning services for cattle. These procedures reduce the risk of injury and improve overall herd management.
+        icon: fas fa-spoon
+      - title: Herd health
+        desc: Optimise your herd’s health with our specialised veterinary services, including disease prevention & vaccinations, fertility management, nutritional planning, and routine health assessments. Our team is committed to the well-being and productivity of your herd.
+        icon: fas fa-suitcase-medical
+      - title: In-house biochemistry & haematology
+        desc: Our clinic offers in-house biochemistry and haematology bloodwork. These advanced tests allow us to assess your animal’s organ function, detect infections, and monitor overall health, allowing us to provide immediate and effective care with the latest diagnostic technology.
+        icon: fas fa-bacteria
+      - title: Calvings/Caesareans
+        desc: We offer assistance with difficult calvings, as well as caesareans for our large animal clients.
+        icon: fas fa-cow
+      - title: Calf health & management
+        desc: Ensure your cales’ health and vitality with our comprehensive veterinary services, including preventative care, vaccinations, nutritional guidance and emergency care. Our team is dedicated to supporting optimal growth and well-being.
+        icon: fas fa-baby
   services_equine:
     section: services_equine
-    title: "Equine Services"
-    text: "We offer a plethora of services delivered by our expert staff"
+    title: Equine Services
+    text: We offer a plethora of services delivered by our expert staff
     list:
-      - title: "Disease control"
-        desc: "excellent whooping cough removal"
-        image: assets/img/services/paw_print.webp
-      - title: "Dogs covered in grass"
-        desc: "With free extra grass"
+      - title: Call-outs & 24hr emergency service
+        desc: We provide 24hr emergency service for all registered equine clients.
+        icon: fas fa-cloud-moon-rain #find more at https://fontawesome.com/icons
+      - title: Vetting/pre-purchase examinations
+        desc: We offer thorough vetting and pre-purchase examinations, ensuring sound health and suitability. Trust our experienced veterinarians to provide detailed assessments and peace of mind before you buy.
+        icon: fas fa-comments-dollar
+      - title: Ultrasound scanning
+        desc: We provide advanced ultrasound scanning for equine pregnancy checks and fertility management. With precise imaging, we monitor foetal development, detect early pregnancies, and assess reproductive health.
+        icon: fas fa-file-waveform
+      - title: Castration
+        desc: We offer castration services for all registered equine clients.
+        icon: fas fa-scissors
+      - title: Bloodwork
+        desc: Our clinic offers in-house biochemistry and haematology bloodwork. These advanced tests allow us to assess your animal’s organ function, detect infections, and monitor overall health, allowing us to provide immediate and effective care with the latest diagnostic technology. We also send bloodwork away to external laboratories when necessary.
+        icon: fas fa-vial
+      - title: Lameness Examinations
+        desc: We offer comprehensive lameness examinations to identify and treat the root causes of your horse’s discomfort. With advanced diagnostics and expert care, we aim to return your horse to peal performance.
+        icon: fas fa-user-injured
+      - title: Microchipping, Marking & Travel Documentation
+        desc: We offer comprehensive services for ponies and foals, including marking, microchipping, and completion of travel documentation. Ensure your pony’s safety & compliance with legal requirements, through our expert care.
+        icon: fas fa-file-contract
+      - title: FEC (external lab)
+        desc: We use an external lab for all faecal egg counts for accurate results. Ensure effective parasite management with our reliable testing services.
+        icon: fas fa-egg
+      - title: Routine work (vaccinations & parasite control)
+        desc: Our clinic provides routine visits, offering essential services such as vaccination and parasite control.
+        icon: fas fa-worm
 
   portfolio:
     section: portfolio
-    title: "Portfolio"
-    closebutton: "Sounds good!"
+    title: Portfolio
+    closebutton: Sounds good!
 
   about:
-    title: "About Us"
-    text: "our mission and values"
-    body: "**care** - we love our animaux. **compassion** - we respect your pets **qualifications** - we strive to maintain the highest scientific knowledge"
+    title: About Us
+    text: our mission and values
+    body: West Coast Vets is a mixed veterinary practice, serving Connemara and West Galway. Our team works hard to make your visit to the vet as stress- free and compassionate as possible, ensuring high quality care and focus on your pet’s health.
     section: about
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "We have a fantastic team of passionate and dedicated vets. We're tight-knit team who've been working together for years and we always have a friendly and cheerful atmosphere."
+    title: OUR AMAZING TEAM
+    text: We have a fantastic team of passionate and dedicated vets. We're tight-knit team who've been working together for years and we always have a friendly and cheerful atmosphere.
     subtext: All our vets are highly trained and dedicated to their job. We're committed to bringing you the best in pet healthcare. We are accredited professionals specialised in multiple fields of vetinary and strive to maintain the highest levels of education and techniques.
     people:
-      - name: "John Mulligan, BVMS"
-        role: "Director & Vet"
+      - name: John Mulligan, BVMS
+        role: Director & Vet
         image: assets/img/team/dog.png
-      - name: "Ines Morrison"
-        role: "Head honcho"
+      - name: Ines Morrison
+        role: Head honcho
         image: assets/img/team/ines1.png
-      - name: "Sara Roche, BVMS"
-        role: "Director & Vet"
+      - name: Sara Roche, BVMS
+        role: Director & Vet
         image: assets/img/team/Sara-Roche.jpg
-      - name: "Colin"
-        role: "RN Vet Nurse"
+      - name: Colin
+        role: RN Vet Nurse
         image: assets/img/team/ines2.jpeg
-      - name: "Saoirse"
-        role: "Animal Care Assistant"
+      - name: Saoirse
+        role: Animal Care Assistant
         image: assets/img/team/ines3.png
 
   certifications:
     section: certifications
-    text: "West Coast Vets is accredited and regualted by the following bodies"
-    footer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: West Coast Vets is accredited and regualted by the following bodies
+    footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     certs:
       - name: VCI
         logo: assets/img/certifications/VCI.png
-        description: "Vetinary Council of Ireland"
+        description: Vetinary Council of Ireland
 
 
   contact:
-    section: "contact"
-    text: "Contact us"
+    section: contact
+    text: Contact us
     phones:
-      - number: "091 867455"
-        number-tel-link: "+35391867455"
-        icon: "fas fa-solid fa-phone"
-        comment: "office phone"
-      - number: "087 707 9696"
-        icon: "fas fa-solid fa-blender-phone"
-      - number: "087 256 1554"
-        icon: "fas fa-solid fa-phone-volume"
+      - number: 091 867455
+        number-tel-link: +35391867455
+        icon: fas fa-solid fa-phone
+        comment: office phone
+      - number: 087 707 9696
+        icon: fas fa-solid fa-blender-phone
+      - number: 087 256 1554
+        icon: fas fa-solid fa-phone-volume
     email: westcoastvetsbearna@outlook.com
-    email-icon: "fas fa-solid fa-envelope-open-text"
+    email-icon: fas fa-solid fa-envelope-open-text
     address-eircode: H91 F827
-    address-text: "Truskey West, Bearna, Co.Galway"
-    address-icon: "fas fa-solid fa-2xl fa-map-location-dot"
-    table-name: "Opening hours"
+    address-text: Truskey West, Bearna, Co.Galway
+    address-icon: fas fa-solid fa-2xl fa-map-location-dot
+    table-name: Opening hours
     timetable:
       - day: Mon-fri
-        status: "09:00 - 18:00"
+        status: 09:00 - 18:00
       - day: Saturday
-        status: "10:00 - 14:00"
+        status: 10:00 - 14:00
       - day: Sunday
         status: closed
       - day: Bank holidays
-        status: "closed"
-    timetable-caption: "We may be unavailable during lunch (13:00-14:00)"
+        status: closed
+    timetable-caption: We may be unavailable during lunch (13:00-14:00)
 
   footer:
-    legal: "Privacy Policy"
-    cro-number: "605801"
+    legal: Privacy Policy
+    cro-number: 605801
     social:
       - url: https://www.facebook.com/p/West-Coast-Vets-100063888707826/
-        icon: "fab fa-facebook-f"
+        icon: fab fa-facebook-f
       - url: https://www.instagram.com/westcoastvetsire
-        icon: "fab fa-instagram"
+        icon: fab fa-instagram
 
 en-US:
   <<: *DEFAULT_EN

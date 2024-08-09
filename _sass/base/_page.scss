@@ -9,14 +9,14 @@ p {
 }
 
 a {
-  color: $primary;
+  color: $white;
   &:hover {
-    color: darken($primary, 20%);
+    color: darken($white, 20%);
   }
 }
 
 .section-heading-yellow {
-  color: $highlight;
+  color: $yellow;
   letter-spacing: 2px;
   -webkit-text-stroke: 1px black;
   @include alfaslab-font;
@@ -34,7 +34,7 @@ a {
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $dark !important;
 }
 
 h1,
@@ -73,12 +73,12 @@ h6 {
 
 // Highlight color customization
 ::-moz-selection {
-  background: $primary;
+  background: $dark;
   text-shadow: none;
 }
 
 ::selection {
-  background: $primary;
+  background: $dark;
   text-shadow: none;
 }
 

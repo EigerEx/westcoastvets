@@ -17,8 +17,8 @@
 {% endif %}
 
 // Custom colors
-$primary: {{ site.data.style.primary  }} !default;
-$highlight: {{ site.data.style.highlight  }} !default;
+$yellow: {{ site.data.style.yellow  }} !default;
+$dark: {{ site.data.style.dark  }} !default;
 $pink: {{ site.data.style.pink  }} !default;
 $white: {{ site.data.style.white }} !default;
 $black: {{ site.data.style.black }} !default;
@@ -39,7 +39,6 @@ $portfolio-image: "{{ site.data.style.portfolio-image }}";
 // Layout
 @import "layout/header.scss";
 @import "layout/services.scss";
-@import "layout/services_categories.scss";
 @import "layout/certifications.scss";
 @import "layout/portfolio.scss";
 @import "layout/about.scss";

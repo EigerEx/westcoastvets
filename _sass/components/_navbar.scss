@@ -1,6 +1,6 @@
 // Styling for the navbar
 #mainNav {
-  background-color: $gray-900;
+  background-color: $dark;
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -8,11 +8,11 @@
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: $primary;
+    background-color: $dark;
     @include heading-font;
   }
   .navbar-brand {
-    color: $highlight;
+    color: $yellow;
     letter-spacing: 2px;
     -webkit-text-stroke: 1px black;
     @include alfaslab-font;
@@ -20,7 +20,7 @@
     &:active,
     &:focus,
     &:hover {
-      color: darken($highlight, 20%);
+      color: darken($yellow, 20%);
     }
   }
   .navbar-nav {
@@ -34,7 +34,7 @@
         @include heading-font;
         &.active,
         &:hover {
-          color: $primary;
+          color: $dark;
         }
       }
     }
@@ -81,7 +81,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $gray-900;
+      background-color: $dark;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
@@ -89,8 +89,8 @@
       .services-dropdown:hover .services-dropdown-menu {
         display: block;
         margin-top: 0px;
-        background-color: $gray-900;
-        border: 2px solid $gray-900;
+        background-color: $dark;
+        border: 2px solid $dark;
       }
     }
   }
