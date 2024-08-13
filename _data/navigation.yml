@@ -12,15 +12,12 @@
 en: &DEFAULT_EN
   nav:
     items:
-      - title: "Portfolio"
-        section: portfolio
-      - title: "About"
-        section: about
-        url: /
       - title: "Team"
-        section: team
+        url: team
+      - title: "Gallery"
+        url: gallery
       - title: "Contact"
-        section: contact
+        url: contact
     services:
       - title: "small"
         url: services_small

@@ -139,9 +139,9 @@ en: &DEFAULT_EN
         desc: Our clinic provides routine visits, offering essential services such as vaccination and parasite control.
         icon: fas fa-worm
 
-  portfolio:
-    section: portfolio
-    title: Portfolio
+  gallery:
+    section: gallery
+    title: Gallery
     closebutton: Sounds good!
 
   about:
