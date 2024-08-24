@@ -1,0 +1,7 @@
+<div class="gallery_container">
+  {% for image in site.data.sitetext[site.locale].gallery.images %}
+    <div class="gallery">
+      <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
+    </div>
+  {% endfor %}
+</div>

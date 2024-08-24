@@ -16,10 +16,10 @@
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
           {% if service.image %}
-            <img class="service-image mx-auto img-fluid rounded-circle " src="{{ service.image }}" alt="{{ service.alt | default ""}}">
+            <a href="{{service.link}}"><img class="service-image mx-auto img-fluid rounded-circle " src="{{ service.image }}" alt="{{ service.alt | default ""}}"></a>
           {% elsif service.icon %}
-            <i class="fas fa-circle fa-stack-2x service-icon"></i>
-            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            <a href="{{service.link}}"><i class="fas fa-circle fa-stack-2x service-icon"></i></a>
+            <a href="{{service.link}}"><i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i></a>
           {% endif %}
         </span>
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>

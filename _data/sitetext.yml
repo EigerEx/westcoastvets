@@ -30,12 +30,15 @@ en: &DEFAULT_EN
       - title: Small Animals
         desc: Surgery, dental, neutering, vaccination, microchipping
         icon: fas fa-dog #find more at https://fontawesome.com/icons
+        link: services_small
       - title: Large Animals
         desc: Consultations, on-farm visits, TB testing
         icon: fas fa-cow
+        link: services_large
       - title: Equine
         desc: Pre-purchase vetting, ultrasounds, x-rays, blood tests, reproduction services
         icon: fas fa-horse
+        link: services_equine
   services_small:
     section: services_small
     title: Small Animals Services
@@ -142,7 +145,81 @@ en: &DEFAULT_EN
   gallery:
     section: gallery
     title: Gallery
-    closebutton: Sounds good!
+    images:
+      - image_path: /assets/img/gallery/cat.png
+        title: Cat
+      - image_path: /assets/img/gallery/cat_bag.png
+        title: Cat bag
+      - image_path: /assets/img/gallery/cat_grumpy.png
+        title: Grumpy cat
+      - image_path: /assets/img/gallery/cats_on_sheep.jpg
+        title: Cats on sheep
+      - image_path: /assets/img/gallery/cattle_mucky.png
+        title: Mucky cattle
+      - image_path: /assets/img/gallery/chicken_wide.png
+        title: Wide chicken
+      - image_path: /assets/img/gallery/chickens.png
+        title: Chickens
+      - image_path: /assets/img/gallery/coffee.jpg
+        title: Coffee
+      - image_path: /assets/img/gallery/cow_and_calf.png
+        title: Cow and calf
+      - image_path: /assets/img/gallery/cow_and_calf2.png
+        title: Cow and calf
+      - image_path: /assets/img/gallery/cow_and_dog.png
+        title: Cow and dog
+      - image_path: /assets/img/gallery/cow_crush.png
+        title: Cow crush
+      - image_path: /assets/img/gallery/cow_crush_2.png
+        title: Cow crush
+      - image_path: /assets/img/gallery/dog.png
+        title: Dog
+      - image_path: /assets/img/gallery/dog_6.png
+        title: Dog
+      - image_path: /assets/img/gallery/dog_7(1).png
+        title: Dog
+      - image_path: /assets/img/gallery/dog_7.png
+        title: Dog
+      - image_path: /assets/img/gallery/dog_coffee.png
+        title: Dog beside coffee
+      - image_path: /assets/img/gallery/dog_jump.png
+        title: Dog jump
+      - image_path: /assets/img/gallery/dog_kiss.png
+        title: Dog kiss
+      - image_path: /assets/img/gallery/dog2.png
+        title: Dog
+      - image_path: /assets/img/gallery/dogs.png
+        title: Dogs
+      - image_path: /assets/img/gallery/dogs_3.png
+        title: Dogs
+      - image_path: /assets/img/gallery/dogs_4.png
+        title: Dogs
+      - image_path: /assets/img/gallery/donkey_cart.png
+        title: Donkey cart
+      - image_path: /assets/img/gallery/donkey_in_field.png
+        title: Donkey in field
+      - image_path: /assets/img/gallery/duck_in_a_box.png
+        title: Duck in a box
+      - image_path: /assets/img/gallery/gate.png
+        title: Gate
+      - image_path: /assets/img/gallery/hedgehog.png
+        title: Hedgehog
+      - image_path: /assets/img/gallery/horse_and_foal.png
+        title: Horse and foal
+      - image_path: /assets/img/gallery/horse_majestic.png
+        title: Majestic horse
+      - image_path: /assets/img/gallery/horse_screwdriver.png
+        title: Horse screwdriver
+      - image_path: /assets/img/gallery/newspaper.png
+        title: Newspaper
+      - image_path: /assets/img/gallery/puppies_handful.png
+        title: Handful of puppies
+      - image_path: /assets/img/gallery/sheep_and_lambs.png
+        title: Sheep and lambs
+      - image_path: /assets/img/gallery/sheep_yucky.png
+        title: Yucky sheep
+      - image_path: /assets/img/gallery/van.png
+        title: Van
 
   about:
     title: About Us
@@ -151,35 +228,16 @@ en: &DEFAULT_EN
     section: about
 
   team:
-    title: OUR AMAZING TEAM
+    title: Our Team
     text: We have a fantastic team of passionate and dedicated vets. We're tight-knit team who've been working together for years and we always have a friendly and cheerful atmosphere.
     subtext: All our vets are highly trained and dedicated to their job. We're committed to bringing you the best in pet healthcare. We are accredited professionals specialised in multiple fields of vetinary and strive to maintain the highest levels of education and techniques.
     people:
-      - name: John Mulligan, BVMS
-        role: Director & Vet
-        image: assets/img/team/dog.png
-      - name: Ines Morrison
-        role: Head honcho
-        image: assets/img/team/ines1.png
       - name: Sara Roche, BVMS
         role: Director & Vet
-        image: assets/img/team/Sara-Roche.jpg
-      - name: Colin
-        role: RN Vet Nurse
-        image: assets/img/team/ines2.jpeg
-      - name: Saoirse
-        role: Animal Care Assistant
-        image: assets/img/team/ines3.png
-
-  certifications:
-    section: certifications
-    text: West Coast Vets is accredited and regualted by the following bodies
-    footer: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    certs:
-      - name: VCI
-        logo: assets/img/certifications/VCI.png
-        description: Vetinary Council of Ireland
-
+        image: assets/img/team/sara.jpg
+      - name: John Mulligan, BVMS
+        role: Director & Vet
+        image: assets/img/team/john.jpg
 
   contact:
     section: contact
@@ -189,10 +247,6 @@ en: &DEFAULT_EN
         number-tel-link: +35391867455
         icon: fas fa-solid fa-phone
         comment: office phone
-      - number: 087 707 9696
-        icon: fas fa-solid fa-blender-phone
-      - number: 087 256 1554
-        icon: fas fa-solid fa-phone-volume
     email: westcoastvetsbearna@outlook.com
     email-icon: fas fa-solid fa-envelope-open-text
     address-eircode: H91 F827
@@ -200,14 +254,14 @@ en: &DEFAULT_EN
     address-icon: fas fa-solid fa-2xl fa-map-location-dot
     table-name: Opening hours
     timetable:
-      - day: Mon-fri
+      - day: Monday to Friday
         status: 09:00 - 18:00
       - day: Saturday
         status: 10:00 - 14:00
       - day: Sunday
-        status: closed
+        status: Closed
       - day: Bank holidays
-        status: closed
+        status: Closed
     timetable-caption: We may be unavailable during lunch (13:00-14:00)
 
   footer:

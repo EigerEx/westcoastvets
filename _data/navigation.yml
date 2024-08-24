@@ -17,11 +17,11 @@ en: &DEFAULT_EN
       - title: "Gallery"
         url: gallery
       - title: "Contact"
-        url: contact
+        section: contact
     services:
       - title: "small"
         url: services_small
-      - title: "big"
+      - title: "large"
         url: services_large
       - title: "equine"
         url: services_equine
