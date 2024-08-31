@@ -8,7 +8,7 @@ pink: "#FD33FF"
 black: "#000"
 
 #Image Customization
-header-image: "../img/paper.png" #"../img/logo.jpg"
+header-image: "../img/yellow_skinny.png"
 portfolio-image: "../img/background_splash_skinny.png"
 contact-image: "../img/contact.png"
 # about-image: "../img/background_splash_skinny.png" doesn't work?
