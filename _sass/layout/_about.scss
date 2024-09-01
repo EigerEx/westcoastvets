@@ -1,5 +1,20 @@
-#about {
-    background-image: url("#{$portfolio-image}");
+//pseudo-element hacky to have background image with low opacity
+#about::before {
+    background-image: url("#{$about-image}");
     background-repeat: no-repeat;
     background-position: top;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+    content: "";
+}
+#about {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

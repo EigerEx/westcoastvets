@@ -5,13 +5,13 @@ yellow: "#f9ca37"
 dark: "#656769"
 white: "#FFFFFF"
 pink: "#FD33FF"
-black: "#000"
+black: "#000000"
 
 #Image Customization
 header-image: "../img/yellow_skinny.png"
 portfolio-image: "../img/background_splash_skinny.png"
+about-image: "../img/background_splash_skinny.png"
 contact-image: "../img/contact.png"
-# about-image: "../img/background_splash_skinny.png" doesn't work?
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
 

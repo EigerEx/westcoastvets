@@ -27,6 +27,7 @@ $black: {{ site.data.style.black }} !default;
 $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
 $portfolio-image: "{{ site.data.style.portfolio-image }}";
+$about-image: "{{ site.data.style.about-image }}";
 
 // Global CSS
 @import "base/page.scss";
