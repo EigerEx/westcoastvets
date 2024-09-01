@@ -1,7 +1,11 @@
 <div class="gallery_container">
-  {% for image in site.data.sitetext[site.locale].gallery.images %}
-    <div class="gallery">
-      <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
+  <div class="gallery">
+    <div class="row text-center">
+      {% for image in site.data.sitetext[site.locale].gallery.images %}
+      <div class="col-lg-3 col-md-4 col-sm-6 container gallery-panel img-fluid ">
+        <img class="gallery-image rounded" src="{{ image.image_path }}" alt="{{ image.title }}"/>
+      </div>
+      {% endfor %}
     </div>
-  {% endfor %}
+  </div>
 </div>
