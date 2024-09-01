@@ -1,8 +1,29 @@
-// Styling for the services section
+// Styling for the services sections
 .services {
   position: relative;
   padding: 0;
   list-style: none;
+  // hidden icon to display on hover
+  .secret-service{
+    display: none;
+    color: $yellow;
+    z-index: 2;
+  }
+  .secret-service-icon{
+    display: none;
+    color: $pink;
+    z-index: 2;
+  }
+  .service-hyperlink.service-icon{
+    color: $pink;
+  }
+  // Display hidden icon!
+  .service-hyperlink:hover .secret-service{
+    display: inline;
+  }
+  .service-hyperlink:hover .secret-service-icon{
+    display: inline;
+  }
   .services-heading {
     margin: 15px 0;
     text-transform: none;
