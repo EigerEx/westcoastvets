@@ -24,7 +24,7 @@ header.masthead {
       margin-bottom: 25px;
       -webkit-text-stroke: 2px $black;
       text-shadow: 2px 2px $yellow;
-      @include alfaslab-font;
+      @include quicksand-font;
     }
   }
   .masthead-button{
@@ -34,8 +34,8 @@ header.masthead {
     margin-top: 30px;
     padding: 15px 30px;
     &:hover {
-      border: 5px red;
       color: red;
+      border: 3px red solid;
     }
   }
   .masthead-button-icon{
@@ -60,7 +60,7 @@ header.masthead {
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
-        @include alfaslab-font;
+        @include quicksand-font;
       }
     }
   }

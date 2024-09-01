@@ -1,6 +1,8 @@
 // Styling for the navbar
+// Generic styling
 #mainNav {
-  background-color: $dark;
+  background-color: $yellow;
+  // Open dropdown on mobile application
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -8,19 +10,19 @@
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: $dark;
-    @include heading-font;
+    background-color: $yellow;
+    @include quicksand-font;
   }
   .navbar-brand {
     color: $yellow;
     letter-spacing: 2px;
     -webkit-text-stroke: 1px black;
-    @include alfaslab-font;
+    @include quicksand-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($yellow, 20%);
+      color: darken($white, 20%);
     }
   }
   .navbar-nav {
@@ -31,7 +33,7 @@
         padding: 0.75em 0;
         letter-spacing: 1px;
         color: $white;
-        @include heading-font;
+        @include quicksand-font;
         &.active,
         &:hover {
           color: $dark;
@@ -39,11 +41,11 @@
       }
     }
     .services-dropdown-menu {
-      background-color: transparent;
       padding-left: 10px;
     }
   }
 }
+// Browser application
 @media (min-width: 768px) {
   #mainNav {
     padding-top: 25px;
@@ -52,7 +54,9 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    // yellow: "#f9ca37"
+    // background-color: rgba( 249, 202, 55, 0.5);
+    background-color: rgba( 00, 00, 00, 0.6);
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -81,7 +85,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $dark;
+      background-color: $yellow;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
@@ -89,8 +93,13 @@
       .services-dropdown:hover .services-dropdown-menu {
         display: block;
         margin-top: 0px;
-        background-color: $dark;
+        background-color: $yellow;
         border: 2px solid $dark;
+      }
+      .nav-item {
+        .nav-link{
+          color: white;
+        }
       }
     }
   }

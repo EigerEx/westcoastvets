@@ -1,4 +1,4 @@
-favicon: "assets/img/favicon.png"
+favicon: "assets/img/favicon_2.png"
 
 #Color Customization
 yellow: "#f9ca37"
@@ -17,17 +17,15 @@ contact-image: "../img/contact.png"
 
 # Add custom fonts
 fonts_urls:
-    - "https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Permanent+Marker&display=swap"
     - "https://fonts.googleapis.com/css?family=Kaushan+Script"
     - "https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
     - "https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
     - "https://fonts.googleapis.com/css?family=Permanent+Marker"
     - "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+    - "https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
 
 # Set custom fonts
 fonts:
-  - name: "Alfa Slab One"
-    for: "alfaslab"
   - name: "Kaushan Script"
     for: "script"
   - name: "Droid Serif"
@@ -38,3 +36,5 @@ fonts:
     for: "marker"
   - name: "Montserrat"
     for: "heading"
+  - name: "Quicksand"
+    for: "quicksand"

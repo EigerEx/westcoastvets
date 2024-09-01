@@ -20,9 +20,9 @@ title      : West Coast Vets
 email      : westcoastvetsbearna@outlook.com
 description: "West Coast Vets"
 author     : Morrison
-# logo:     #optional, defaults to site title
-#   path: assets\img\clients\creative-market.jpg
-#   height: 60 #height in px, defaults to 52px
+logo:     # defaults to site title
+  path: assets/img/wcv_logo.png
+  height: 60 #height in px, defaults to 52px
 
 locale: "en-GB" # See available languages in _data/sitetext.yml
 
