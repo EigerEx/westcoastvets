@@ -47,9 +47,6 @@ en: &DEFAULT_EN
       - title: Vaccinations & Health Checks
         desc: We strongly recommend bringing your pet to the vet at least once a year. These annual check-ups are essential for picking up any health concerns. These comprehensive exams include a thorough physical assessment, vaccinations and preventative care tailored to your pet’s age and needs. Regular health checks help detect potential issues early, ensuring timely treatment and promoting overall well-being. Vaccinations are essential in protecting your pet against potentially fatal diseases.
         icon: fas fa-shopping-cart
-      - title: Pet Passport
-        desc: Travelling can be stressful! Let us help you to minimise that stress by making sure your pet is all-set for their travels. We will provide the necessary vaccinations, health checks and documentation required for your international travel. Let us help you create unforgettable adventures with your pet!
-        icon: fas fa-passport
       - title: Microchipping
         desc: The mandatory microchipping of dogs came into effect in 2015 under the Animal Health & Welfare Act 2013. This simple procedure provides a permanent identification solution, ensuring your furry friend can be easily returned if lost. Our team will guide you through the process and register your pet’s information in the national database, FIDO. Protect your pet and gain peace of mind. Microchip your pet today!
         icon: fab fa-markdown
@@ -80,6 +77,9 @@ en: &DEFAULT_EN
       - title: Nutrition & Food
         desc: We stock a wide range for both cats and dogs from CALIBRA, including puppy/kitten, junior & adult maintenance, senior diets and veterinary specialist diets. Speak to a member of the team to find the right food for your pet!
         icon: fas fa-utensils
+      - title: Pet Passport
+        desc: Travelling can be stressful! Let us help you to minimise that stress by making sure your pet is all-set for their travels. We will provide the necessary vaccinations, health checks and documentation required for your international travel. Let us help you create unforgettable adventures with your pet!
+        icon: fas fa-passport
   services_large:
     section: services_large
     title: Large Animal Services
@@ -103,8 +103,8 @@ en: &DEFAULT_EN
       - title: In-house biochemistry & haematology
         desc: Our clinic offers in-house biochemistry and haematology bloodwork. These advanced tests allow us to assess your animal’s organ function, detect infections, and monitor overall health, allowing us to provide immediate and effective care with the latest diagnostic technology.
         icon: fas fa-bacteria
-      - title: Calvings/Caesareans
-        desc: We offer assistance with difficult calvings, as well as caesareans for our large animal clients.
+      - title: Calvings
+        desc: We offer assisted calvings, as well as caesareans for our our registered large animal clients.
         icon: fas fa-cow
       - title: Calf health & management
         desc: Ensure your cales’ health and vitality with our comprehensive veterinary services, including preventative care, vaccinations, nutritional guidance and emergency care. Our team is dedicated to supporting optimal growth and well-being.

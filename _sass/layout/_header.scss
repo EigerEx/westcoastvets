@@ -1,7 +1,7 @@
 // Styling for the masthead
 header.masthead {
   text-align: center;
-  color: $yellow;
+  color: $black;
   background-image: url("#{$header-image}");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -34,8 +34,8 @@ header.masthead {
     margin-top: 30px;
     padding: 15px 30px;
     &:hover {
-      color: red;
-      border: 3px red solid;
+      color: $energy;
+      border: 3px $energy solid;
     }
   }
   .masthead-button-icon{

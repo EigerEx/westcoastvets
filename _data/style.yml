@@ -4,11 +4,11 @@ favicon: "assets/img/favicon_2.png"
 yellow: "#f9ca37"
 dark: "#656769"
 white: "#FFFFFF"
-pink: "#FD33FF"
 black: "#000000"
+energy: "#FD33FF"
 
 #Image Customization
-header-image: "../img/yellow_skinny.png"
+header-image: "../img/portfolio/dog_field.jpeg"
 portfolio-image: "../img/background_splash_skinny.png"
 about-image: "../img/background_splash_skinny.png"
 contact-image: "../img/contact.png"

@@ -18,7 +18,7 @@ section#contact {
     width: 160px;
     .contact-phone-icon{
       float: left;
-      color: $pink;
+      color: $energy;
     }
     .contact-phone-text{
       float: right;
@@ -28,7 +28,7 @@ section#contact {
       &:active,
       &:hover{
         font-style: underline;
-        color: red;
+        color: $energy;
       }
     }
   }
