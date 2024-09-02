@@ -266,6 +266,7 @@ en: &DEFAULT_EN
       - day: Bank holidays
         status: Closed
     timetable-caption: We may be unavailable during lunch (13:00-14:00)
+    timetable-caption-italics: Open 24hrs for emergencies
 
   footer:
     legal: Privacy Policy
