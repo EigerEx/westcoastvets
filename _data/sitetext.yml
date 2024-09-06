@@ -25,18 +25,18 @@ en: &DEFAULT_EN
   services:
     section: services
     title: Services
-    text: We offer a plethora of services delivered by our expert staff
+    text: West Coast Vets offers extensive services for small, large and equine animals, all delivered by our expert staff.
     list:
       - title: Small Animals
-        desc: Surgery, dental, neutering, vaccination, microchipping
+        desc: Surgery, dental, neutering, vaccination, microchipping, and more
         icon: fas fa-dog #find more at https://fontawesome.com/icons
         link: services_small
       - title: Large Animals
-        desc: Consultations, on-farm visits, TB testing
+        desc: Consultations, on-farm visits, TB testing, and more
         icon: fas fa-cow
         link: services_large
       - title: Equine
-        desc: Pre-purchase vetting, ultrasounds, x-rays, blood tests, reproduction services
+        desc: Pre-purchase vetting, ultrasounds, x-rays, blood tests, reproduction services, and more
         icon: fas fa-horse
         link: services_equine
   services_small:
