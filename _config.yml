@@ -11,14 +11,14 @@
 # You can creatxe any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-agency
+theme: jekyll-wcv
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : West Coast Vets
 email      : westcoastvetsbearna@outlook.com
-description: "West Coast Vets"
+description: "West Coast Vets public website!"
 author     : Morrison
 logo:     # defaults to site title
   path: assets/img/wcv_logo.png
