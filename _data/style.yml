@@ -8,10 +8,11 @@ black: "#000000"
 energy: "#FD33FF"
 
 #Image Customization
-header-image: "../img/portfolio/dog_field.jpeg"
-portfolio-image: "../img/background_splash_skinny.png"
-about-image: "../img/background_splash_skinny.png"
-contact-image: "../img/contact.png"
+header-image: "assets/img/dog_bog_cotton.jpg"
+portfolio-image: "assets/img/background_splash_skinny.png"
+about-image: "assets/img/background_splash_skinny.png"
+contact-image: "assets/img/contact.png"
+
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
 

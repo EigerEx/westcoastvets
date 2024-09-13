@@ -94,7 +94,7 @@ en: &DEFAULT_EN
       - title: TB testing
         desc: We offer T.B testing service to our large animal clients. Our experienced veterinarians will conduct thorough testing and offer expert guidance to help maintain the well-being of your livestock.
         icon: fas fa-lungs-virus
-      - title: Dehoring/Debudding
+      - title: Dehorning/Debudding
         desc: We offer safe and humane debudding and dehorning services for cattle. These procedures reduce the risk of injury and improve overall herd management.
         icon: fas fa-spoon
       - title: Herd health
@@ -107,7 +107,7 @@ en: &DEFAULT_EN
         desc: We offer assisted calvings, as well as caesareans for our our registered large animal clients.
         icon: fas fa-cow
       - title: Calf health & management
-        desc: Ensure your cales’ health and vitality with our comprehensive veterinary services, including preventative care, vaccinations, nutritional guidance and emergency care. Our team is dedicated to supporting optimal growth and well-being.
+        desc: Ensure your calves’ health and vitality with our comprehensive veterinary services, including preventative care, vaccinations, nutritional guidance and emergency care. Our team is dedicated to supporting optimal growth and well-being.
         icon: fas fa-baby
   services_equine:
     section: services_equine
