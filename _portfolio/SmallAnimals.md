@@ -1,7 +1,8 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Facilities
-  subtitle: Take a look at our facilities!
-  thumbnail: assets/img/portfolio/dog_field.jpeg
-
+  hover-icon: "fas fa-frog fa-4x"
+  title: Animals gallery
+  subtitle: Take a look at our animals
+  thumbnail: assets/img/gallery/cat.png
+  hyperlink: gallery
 ---

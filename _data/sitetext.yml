@@ -143,83 +143,104 @@ en: &DEFAULT_EN
         icon: fas fa-worm
 
   gallery:
-    section: gallery
-    title: Gallery
-    images:
-      - image_path: assets/img/gallery/cat.png
-        title: Cat
-      - image_path: assets/img/gallery/cat_bag.png
-        title: Cat bag
-      - image_path: assets/img/gallery/cat_grumpy.png
-        title: Grumpy cat
-      - image_path: assets/img/gallery/cats_on_sheep.jpg
-        title: Cats on sheep
-      - image_path: assets/img/gallery/cattle_mucky.png
-        title: Mucky cattle
-      - image_path: assets/img/gallery/chicken_wide.png
-        title: Wide chicken
-      - image_path: assets/img/gallery/chickens.png
-        title: Chickens
-      - image_path: assets/img/gallery/coffee.jpg
-        title: Coffee
-      - image_path: assets/img/gallery/cow_and_calf.png
-        title: Cow and calf
-      - image_path: assets/img/gallery/cow_and_calf2.png
-        title: Cow and calf
-      - image_path: assets/img/gallery/cow_and_dog.png
-        title: Cow and dog
-      - image_path: assets/img/gallery/cow_crush.png
-        title: Cow crush
-      - image_path: assets/img/gallery/cow_crush_2.png
-        title: Cow crush
-      - image_path: assets/img/gallery/dog.png
-        title: Dog
-      - image_path: assets/img/gallery/dog_6.png
-        title: Dog
-      - image_path: assets/img/gallery/dog_7(1).png
-        title: Dog
-      - image_path: assets/img/gallery/dog_7.png
-        title: Dog
-      - image_path: assets/img/gallery/dog_coffee.png
-        title: Dog beside coffee
-      - image_path: assets/img/gallery/dog_jump.png
-        title: Dog jump
-      - image_path: assets/img/gallery/dog_kiss.png
-        title: Dog kiss
-      - image_path: assets/img/gallery/dog2.png
-        title: Dog
-      - image_path: assets/img/gallery/dogs.png
-        title: Dogs
-      - image_path: assets/img/gallery/dogs_3.png
-        title: Dogs
-      - image_path: assets/img/gallery/dogs_4.png
-        title: Dogs
-      - image_path: assets/img/gallery/donkey_cart.png
-        title: Donkey cart
-      - image_path: assets/img/gallery/donkey_in_field.png
-        title: Donkey in field
-      - image_path: assets/img/gallery/duck_in_a_box.png
-        title: Duck in a box
-      - image_path: assets/img/gallery/gate.png
-        title: Gate
-      - image_path: assets/img/gallery/hedgehog.png
-        title: Hedgehog
-      - image_path: assets/img/gallery/horse_and_foal.png
-        title: Horse and foal
-      - image_path: assets/img/gallery/horse_majestic.png
-        title: Majestic horse
-      - image_path: assets/img/gallery/horse_screwdriver.png
-        title: Horse screwdriver
-      - image_path: assets/img/gallery/newspaper.png
-        title: Newspaper
-      - image_path: assets/img/gallery/puppies_handful.png
-        title: Handful of puppies
-      - image_path: assets/img/gallery/sheep_and_lambs.png
-        title: Sheep and lambs
-      - image_path: assets/img/gallery/sheep_yucky.png
-        title: Yucky sheep
-      - image_path: assets/img/gallery/van.png
-        title: Van
+    animals:
+      section: gallery
+      title: Gallery
+      images:
+        - image_path: assets/img/gallery/cat.png
+          title: Cat
+        - image_path: assets/img/gallery/cat_bag.png
+          title: Cat bag
+        - image_path: assets/img/gallery/cat_grumpy.png
+          title: Grumpy cat
+        - image_path: assets/img/gallery/cats_on_sheep.jpg
+          title: Cats on sheep
+        - image_path: assets/img/gallery/cattle_mucky.png
+          title: Mucky cattle
+        - image_path: assets/img/gallery/chicken_wide.png
+          title: Wide chicken
+        - image_path: assets/img/gallery/chickens.png
+          title: Chickens
+        - image_path: assets/img/gallery/coffee.jpg
+          title: Coffee
+        - image_path: assets/img/gallery/cow_and_calf.png
+          title: Cow and calf
+        - image_path: assets/img/gallery/cow_and_calf2.png
+          title: Cow and calf
+        - image_path: assets/img/gallery/cow_and_dog.png
+          title: Cow and dog
+        - image_path: assets/img/gallery/cow_crush.png
+          title: Cow crush
+        - image_path: assets/img/gallery/cow_crush_2.png
+          title: Cow crush
+        - image_path: assets/img/gallery/dog.png
+          title: Dog
+        - image_path: assets/img/gallery/dog_6.png
+          title: Dog
+        - image_path: assets/img/gallery/dog_7(1).png
+          title: Dog
+        - image_path: assets/img/gallery/dog_7.png
+          title: Dog
+        - image_path: assets/img/gallery/dog_coffee.png
+          title: Dog beside coffee
+        - image_path: assets/img/gallery/dog_jump.png
+          title: Dog jump
+        - image_path: assets/img/gallery/dog_kiss.png
+          title: Dog kiss
+        - image_path: assets/img/gallery/dog2.png
+          title: Dog
+        - image_path: assets/img/gallery/dogs.png
+          title: Dogs
+        - image_path: assets/img/gallery/dogs_3.png
+          title: Dogs
+        - image_path: assets/img/gallery/dogs_4.png
+          title: Dogs
+        - image_path: assets/img/gallery/donkey_cart.png
+          title: Donkey cart
+        - image_path: assets/img/gallery/donkey_in_field.png
+          title: Donkey in field
+        - image_path: assets/img/gallery/duck_in_a_box.png
+          title: Duck in a box
+        - image_path: assets/img/gallery/gate.png
+          title: Gate
+        - image_path: assets/img/gallery/hedgehog.png
+          title: Hedgehog
+        - image_path: assets/img/gallery/horse_and_foal.png
+          title: Horse and foal
+        - image_path: assets/img/gallery/horse_majestic.png
+          title: Majestic horse
+        - image_path: assets/img/gallery/horse_screwdriver.png
+          title: Horse screwdriver
+        - image_path: assets/img/gallery/newspaper.png
+          title: Newspaper
+        - image_path: assets/img/gallery/puppies_handful.png
+          title: Handful of puppies
+        - image_path: assets/img/gallery/sheep_and_lambs.png
+          title: Sheep and lambs
+        - image_path: assets/img/gallery/sheep_yucky.png
+          title: Yucky sheep
+        - image_path: assets/img/gallery/van.png
+          title: Van
+    facilities:
+      section: gallery
+      title: Facilities Gallery
+      images:
+        - image_path: assets/img/facilities/anaesthetic_machine.jpg
+          title: Cat
+        - image_path: assets/img/facilities/clinic.jpg
+          title: clinic
+        - image_path: assets/img/facilities/xray.jpg
+          title: xray
+        - image_path: assets/img/facilities/anaesthetic.jpg
+          title: anaesthetic
+        - image_path: assets/img/facilities/dental_machine.jpg
+          title: dental machine
+        - image_path: assets/img/facilities/horse_stock.jpeg
+          title: horse stock
+        - image_path: assets/img/facilities/in_house_blood_machines.jpg
+          title: in house blood machines
+        - image_path: assets/img/facilities/ultrasound.jpg
+          title: ultrasound
 
   testimonials:
       section: testimonials

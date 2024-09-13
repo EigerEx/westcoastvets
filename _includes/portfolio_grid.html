@@ -10,10 +10,10 @@
 	{% for project in site.portfolio %}
       <div class="col-md-6 col-sm-6">
         <div class="portfolio-item">
-        <a class="portfolio-link" href="/gallery">
+        <a class="portfolio-link" href="/{{ project.caption.hyperlink }}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
-              <i class="{{ project.caption.hover-icon | default: "fas fa-paw fa-4x" }}"></i>
+              <i class="{{ project.caption.hover-icon }}"></i>
             </div>
           </div>
           <img class="img-fluid portfolio-thumbnail" src="{{ project.caption.thumbnail }}" alt="">
