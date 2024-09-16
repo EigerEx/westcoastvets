@@ -8,7 +8,7 @@ black: "#000000"
 energy: "#FD33FF"
 
 #Image Customization
-header-image: "assets/img/dog_bog_cotton.jpg"
+header-image: "/assets/img/dog_bog_cotton.jpg"
 portfolio-image: "assets/img/background_splash_skinny.png"
 about-image: "assets/img/background_splash_skinny.png"
 contact-image: "assets/img/contact.png"
