@@ -1,7 +1,6 @@
 // Styling for the portfolio section
 //pseudo-element hacky to have background image with low opacity
 #portfolio::before {
-  background-image: url("#{$about-image}");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
