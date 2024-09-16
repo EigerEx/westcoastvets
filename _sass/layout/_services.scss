@@ -3,7 +3,6 @@
   position: relative;
   padding: 0;
   list-style: none;
-  cursor: pointer;
   // hidden icon to display on hover
   .secret-service{
     display: none;
@@ -20,6 +19,7 @@
   }
   // Display hidden icon!
   .service-hyperlink:hover .secret-service{
+    cursor: pointer;
     display: inline;
   }
   .service-hyperlink:hover .secret-service-icon{
