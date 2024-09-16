@@ -61,4 +61,38 @@
     }
   </style>
   {% endif %}
+
+  <!-- Function to copy email (from footer) to clipboard -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      var elements = document.getElementsByClassName("copy-to-clipboard");
+      for ( element of elements ){
+        element.addEventListener('click',function(){
+        try {
+          // save originals
+          const originalText = element.textContent;
+          const originalColor = element.style.color;
+
+          // copy to clipboard
+          navigator.clipboard.writeText( originalText );
+
+          // Copy success
+          element.innerHTML = "    Copied to clipbard!    "
+          element.style.color = "red";
+
+          // reset
+          setTimeout(()=>{
+            element.innerHTML = originalText;
+            element.style.color = originalColor;
+          }, 2000 );
+
+        } catch (error) {
+          console.error("Failed to copy to clipboard:", error);
+          // Optional: Handle and display the error to the user
+        }
+      }); // Click event listener
+      };
+    }); // DOM event listener
+  </script>
+
 </head>
