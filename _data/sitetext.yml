@@ -327,11 +327,16 @@ en: &DEFAULT_EN
   footer:
     legal: Privacy Policy
     cro-number: 605801
-    social:
-      - url: https://www.facebook.com/p/West-Coast-Vets-100063888707826/
-        icon: fab fa-facebook-f
-      - url: https://www.instagram.com/westcoastvetsire
-        icon: fab fa-instagram
+
+  social:
+    - url: https://www.facebook.com/p/West-Coast-Vets-100063888707826/
+      icon: fab fa-facebook-f
+      background: "linear-gradient(  #f9ce34, #ee2a7b, #6228d7)"
+      color: "white"
+    - url: https://www.instagram.com/westcoastvetsire
+      icon: fab fa-instagram
+      background: "blue"
+      color: "white"
 
 en-US:
   <<: *DEFAULT_EN

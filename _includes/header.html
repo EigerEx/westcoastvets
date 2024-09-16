@@ -8,13 +8,32 @@
         {%- if site.data.sitetext[site.locale].header.title -%}
           <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
         {%- endif -%}
+
         <div class="d-flex flex-column align-items-center masthead-buttons">
+
+            <!-- Social Media -->
+            <div class="col-md-4">
+              <ul class="list-inline social-buttons">
+                {% for link in site.data.sitetext[site.locale].social %}
+                <li class="list-inline-item">
+                  {% if link.url %}
+                  <a href="{{ link.url }}" style="background: {{link.background}};" target="_blank">
+                    {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
+                  </a>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+
+          <!-- navigation buttons -->
           {% for button in site.data.sitetext[site.locale].header.buttons %}
             <a class="masthead-button btn btn-xl text-uppercase js-scroll-trigger" href="{{ button.buttonlink }}">
               {% if button.icon %} <i class="{{ button.icon }} masthead-button-icon"></i>{% endif %}
               {{ button.name }}
             </a>
           {% endfor %}
+
       </div>
     </div>
   </div>
