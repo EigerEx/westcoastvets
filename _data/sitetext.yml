@@ -331,12 +331,10 @@ en: &DEFAULT_EN
   social:
     - url: https://www.facebook.com/p/West-Coast-Vets-100063888707826/
       icon: fab fa-facebook-f
-      background: "linear-gradient(  #f9ce34, #ee2a7b, #6228d7)"
-      color: "white"
+      html-class: socials-facebook
     - url: https://www.instagram.com/westcoastvetsire
       icon: fab fa-instagram
-      background: "blue"
-      color: "white"
+      html-class: socials-instagram
 
 en-US:
   <<: *DEFAULT_EN

@@ -10,13 +10,14 @@
       <div class="col-md-4">
         <span class="designer">Made By Morrisons</span>
       </div>
+
       <!-- Social Media -->
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
-          {% for link in site.data.sitetext[site.locale].footer.social %}
+          {% for link in site.data.sitetext[site.locale].social %}
           <li class="list-inline-item">
             {% if link.url %}
-            <a href="{{ link.url }}" target="_blank">
+            <a href="{{ link.url }}" class="{{link.html-class}}" target="_blank">
               {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
             </a>
             {% endif %}
@@ -24,6 +25,7 @@
           {% endfor %}
         </ul>
       </div>
+
       <!-- Legal -->
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
@@ -35,6 +37,7 @@
           </li>
         </ul>
       </div>
+
     </div>
   </div>
 </footer>

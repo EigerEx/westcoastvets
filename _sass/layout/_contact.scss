@@ -81,3 +81,48 @@ section#contact {
     color: $white;
   }
 }
+
+ul.social-buttons {
+  margin-bottom: 0;
+  li {
+    a {
+      font-size: 20px;
+      line-height: 45px;
+      display: block;
+      width: 50px;
+      height: 50px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      // background: linear-gradient(  #f9ce34, #ee2a7b, #6228d7);
+      // color: $dark;
+      border-radius: 100%;
+      border: 3px solid $white;
+      background-color: $dark;
+      &:active,
+      &:focus,
+      &:hover {
+        border: 3px solid $energy;
+        color: $energy;
+      }
+    }
+  }
+  .socials-instagram{
+    background: linear-gradient(  #f9ce34, #ee2a7b, #6228d7);
+    color: "white";
+    &:active,
+    &:focus,
+    &:hover {
+      background: linear-gradient(  #b59624, #a21c54, #5622bd);
+    }
+  }
+  .socials-facebook{
+    background: #4267B2;
+    color: "white";
+    &:active,
+    &:focus,
+    &:hover {
+      background: #2d4679;
+    }
+  }
+}
