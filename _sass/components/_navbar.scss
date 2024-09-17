@@ -39,7 +39,6 @@
     color: $yellow;
     letter-spacing: 2px;
     -webkit-text-stroke: 1px $black;
-    &.active,
     &:active,
     &:focus,
     &:hover {
@@ -77,10 +76,6 @@
         }
       }
     }
-    // Open dropdown menu when the dropdown item is hovered
-    .services-dropdown:hover .services-dropdown-menu {
-      display: block;
-    }
     // Enter this when scrolling down
     &.navbar-shrink {
       padding-top: 0;
@@ -88,7 +83,7 @@
       background-color: $yellow;
       .navbar-brand {
         padding: 12px 0;
-        }
+      }
       .services-dropdown:hover .services-dropdown-menu {
         display: block;
         margin-top: 0px;
@@ -99,6 +94,7 @@
         .nav-link{
           color: $black;
           &:active,
+          &:focus,
           &:hover {
             color: $energy;
             background-color: darken($yellow, 20%);
