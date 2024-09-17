@@ -28,13 +28,15 @@
 
         <!-- address -->
         <div class="contact-address">
-        <row class="row justify-content-center">
-          <i class="{{ site.data.sitetext[site.locale].contact.address-icon }} contact-address-icon"></i>
-          <div class="align-items-center">
-            <div class="contact-address-eircode">{{ site.data.sitetext[site.locale].contact.address-eircode }}</div>
-            <div class="contact-address-text">{{ site.data.sitetext[site.locale].contact.address-text }}</div>
-          </div>
-        </row>
+          <a class="contact-url-link d-inline-flex" href="{{ site.data.sitetext[site.locale].contact.address-map-hyperlink }}">
+            <row class="row justify-content-center contact-row">
+            <i class="{{ site.data.sitetext[site.locale].contact.address-icon }} contact-address-icon"></i>
+            <div class="align-items-center">
+              <div class="contact-address-eircode"> {{ site.data.sitetext[site.locale].contact.address-eircode }} </div>
+              <div class="contact-address-text" > {{ site.data.sitetext[site.locale].contact.address-text }} </div>
+            </div>
+          </row>
+          </a>
         </div>
 
           <!-- timetable and map block -->

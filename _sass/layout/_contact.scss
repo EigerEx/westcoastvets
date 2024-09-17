@@ -49,18 +49,28 @@ section#contact {
     margin-top: 0;
     margin-bottom: 15px;
     color: $yellow;
-    .contact-address-text{
-      font-family: monospace;
-      font-style: italic;
-      font-size: 12px;
-    }
-    .contact-address-eircode{
-      font-family: monospace;
-    }
-    .contact-address-icon{
-      padding-right: 30px;
-      color: rgb(0, 213, 64);
-      line-height: normal;
+    .contact-url-link{
+      color: inherit;
+      white-space: nowrap;
+      &:focus,
+      &:active,
+      &:hover{
+        font-style: underline;
+        color: $energy;
+      }
+      .contact-address-text{
+        font-family: monospace;
+        font-style: italic;
+        font-size: 12px;
+      }
+      .contact-address-eircode{
+        font-family: monospace;
+      }
+      .contact-address-icon{
+        padding-right: 30px;
+        color: rgb(0, 213, 64);
+        line-height: normal;
+      }
     }
   }
   .contact-timetable{
