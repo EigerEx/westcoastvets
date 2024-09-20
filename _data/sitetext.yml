@@ -46,19 +46,19 @@ en: &DEFAULT_EN
     list:
       - title: Vaccinations & Health Checks
         desc: We strongly recommend bringing your pet to the vet at least once a year. These annual check-ups are essential for picking up any health concerns. These comprehensive exams include a thorough physical assessment, vaccinations and preventative care tailored to your pet’s age and needs. Regular health checks help detect potential issues early, ensuring timely treatment and promoting overall well-being. Vaccinations are essential in protecting your pet against potentially fatal diseases.
-        icon: fas fa-shopping-cart
+        icon: fas fa-stethoscope
       - title: Microchipping
         desc: The mandatory microchipping of dogs came into effect in 2015 under the Animal Health & Welfare Act 2013. This simple procedure provides a permanent identification solution, ensuring your furry friend can be easily returned if lost. Our team will guide you through the process and register your pet’s information in the national database, FIDO. Protect your pet and gain peace of mind. Microchip your pet today!
-        icon: fab fa-markdown
+        icon: fas fa-microchip
       - title: Neutering/Spaying
         desc: There are numerous advantages to neutering/spaying your pet. It can help manage pet populations, and improve your pet’s health. These procedures can prevent certain diseases, reduce behavioural issues, and contribute to a longer, healthier life for your pet. Our team will provide compassionate care before, during and after the surgery, ensuring a smooth recovery.
         icon: fas fa-scissors
       - title: Ultrasonography
         desc: We offer non-invasive ultrasound services for precise diagnostics and monitoring. This allows our veterinarians to visualise internal organs in real-time, aiding in the detection of heart diseases, liver and kidney issues, and reproductive health concerns.
-        icon: fas fa-tower-cell
+        icon: fas fa-file-waveform
       - title: Radiography
         desc: Our in-house x-rays allow us to see the full picture of what is going on with your pet. We can view internal organs, observe bone structure, assess if your pet is developing arthritis in their old age, or if they have eaten something they shouldn’t have…
-        icon: fas fa-x-ray
+        icon: fas fa-radiation
       - title: In-house biochemistry & haematology
         desc: Our clinic offers in-house biochemistry and haematology bloodwork. These advanced tests allow us to assess your pet’s organ function, detect infections, and monitor overall health, allowing us to provide immediate and effective care with the latest diagnostic technology.
         icon: fas fa-flask-vial
@@ -70,10 +70,10 @@ en: &DEFAULT_EN
         icon: fas fa-dog
       - title: Senior clinic
         desc: We believe that our beloved pets that are entering their ‘golden years’, deserve a little extra TLC. These comprehensive check-ups include a thorough nose-to-tail examination, nutritional advice, bloodwork, dental check, and tailored health plans to address common age-related issues. Our team will provide expert care and support for your senior pet’s unique needs, enhancing their quality of life. “*My face may be white, but my heart is pure gold. There is no shame in growing old*”.
-        icon: fas fa-person-cane
+        icon: fas fa-hand-holding-heart
       - title: Exotics & Wildlife
         desc: From treating injured hedgehogs to performing beak & claw trims on parrots, our team is ready and willing to help
-        icon: fas fa-dragon
+        icon: fas fa-otter
       - title: Nutrition & Food
         desc: We stock a wide range for both cats and dogs from CALIBRA, including puppy/kitten, junior & adult maintenance, senior diets and veterinary specialist diets. Speak to a member of the team to find the right food for your pet!
         icon: fas fa-utensils
@@ -96,19 +96,17 @@ en: &DEFAULT_EN
         icon: fas fa-lungs-virus
       - title: Dehorning/Debudding
         desc: We offer safe and humane debudding and dehorning services for cattle. These procedures reduce the risk of injury and improve overall herd management.
-        icon: fas fa-spoon
+        icon: fas fa-syringe
       - title: Herd health
         desc: Optimise your herd’s health with our specialised veterinary services, including disease prevention & vaccinations, fertility management, nutritional planning, and routine health assessments. Our team is committed to the well-being and productivity of your herd.
         icon: fas fa-suitcase-medical
       - title: In-house biochemistry & haematology
         desc: Our clinic offers in-house biochemistry and haematology bloodwork. These advanced tests allow us to assess your animal’s organ function, detect infections, and monitor overall health, allowing us to provide immediate and effective care with the latest diagnostic technology.
-        icon: fas fa-bacteria
+        icon: fas fa-flask-vial
       - title: Calvings
         desc: We offer assisted calvings, as well as caesareans for our our registered large animal clients.
         icon: fas fa-cow
-      - title: Calf health & management
-        desc: Ensure your calves’ health and vitality with our comprehensive veterinary services, including preventative care, vaccinations, nutritional guidance and emergency care. Our team is dedicated to supporting optimal growth and well-being.
-        icon: fas fa-baby
+
   services_equine:
     section: services_equine
     title: Equine Services
@@ -119,7 +117,7 @@ en: &DEFAULT_EN
         icon: fas fa-cloud-moon-rain #find more at https://fontawesome.com/icons
       - title: Vetting/pre-purchase examinations
         desc: We offer thorough vetting and pre-purchase examinations, ensuring sound health and suitability. Trust our experienced veterinarians to provide detailed assessments and peace of mind before you buy.
-        icon: fas fa-comments-dollar
+        icon: fas fa-clipboard-check
       - title: Ultrasound scanning
         desc: We provide advanced ultrasound scanning for equine pregnancy checks and fertility management. With precise imaging, we monitor foetal development, detect early pregnancies, and assess reproductive health.
         icon: fas fa-file-waveform
@@ -128,10 +126,10 @@ en: &DEFAULT_EN
         icon: fas fa-scissors
       - title: Bloodwork
         desc: Our clinic offers in-house biochemistry and haematology bloodwork. These advanced tests allow us to assess your animal’s organ function, detect infections, and monitor overall health, allowing us to provide immediate and effective care with the latest diagnostic technology. We also send bloodwork away to external laboratories when necessary.
-        icon: fas fa-vial
+        icon: fas fa-droplet
       - title: Lameness Examinations
         desc: We offer comprehensive lameness examinations to identify and treat the root causes of your horse’s discomfort. With advanced diagnostics and expert care, we aim to return your horse to peal performance.
-        icon: fas fa-user-injured
+        icon: fas fa-bandage
       - title: Microchipping, Marking & Travel Documentation
         desc: We offer comprehensive services for ponies and foals, including marking, microchipping, and completion of travel documentation. Ensure your pony’s safety & compliance with legal requirements, through our expert care.
         icon: fas fa-file-contract
@@ -217,10 +215,14 @@ en: &DEFAULT_EN
           title: Handful of puppies
         - image_path: assets/img/gallery/sheep_and_lambs.png
           title: Sheep and lambs
-        - image_path: assets/img/gallery/sheep_yucky.png
-          title: Yucky sheep
         - image_path: assets/img/gallery/van.png
           title: Van
+        - image_path: assets/img/gallery/cal_car_boot.jpg
+          title: calf in car boot
+        - image_path: assets/img/gallery/calf_at_clinic.jpg
+          title: Calf at clinic
+        - image_path: assets/img/gallery/calves_wall.jpg
+          title: Calves 
     facilities:
       section: gallery
       title: Facilities Gallery
@@ -231,8 +233,8 @@ en: &DEFAULT_EN
           title: clinic
         - image_path: assets/img/facilities/xray.jpg
           title: xray
-        - image_path: assets/img/facilities/anaesthetic.jpg
-          title: anaesthetic
+        # - image_path: assets/img/facilities/anaesthetic.jpg
+        #   title: anaesthetic
         - image_path: assets/img/facilities/dental_machine.jpg
           title: dental machine
         - image_path: assets/img/facilities/horse_stock.jpeg
@@ -279,21 +281,21 @@ en: &DEFAULT_EN
 
   about:
     title: About Us
-    text: our mission and values
+    text: Our mission and values
     body: West Coast Vets is a mixed veterinary practice, serving Connemara and West Galway. Our team works hard to make your visit to the vet as stress- free and compassionate as possible, ensuring high quality care and focus on your pet’s health.
     section: about
 
   team:
     title: Our Team
-    text: We have a fantastic team of passionate and dedicated vets. We're tight-knit team who've been working together for years and we always have a friendly and cheerful atmosphere.
-    subtext: All our vets are highly trained and dedicated to their job. We're committed to bringing you the best in pet healthcare. We are accredited professionals specialised in multiple fields of vetinary and strive to maintain the highest levels of education and techniques.
+    text: “Our dedicated veterinary team is committed to delivering exceptional, personalized care for every pet, combining years of expertise with a genuine passion for animal health.
+    # subtext: All our vets are highly trained and dedicated to their job. We're committed to bringing you the best in pet healthcare. We are accredited professionals specialised in multiple fields of vetinary and strive to maintain the highest levels of education and techniques.
     people:
       - name: Sara Roche, BVMS
-        role: Director & Vet
+        role:  Director & Veterinary Surgeon
         image: assets/img/team/sara.jpg
         text: <p>Sara grew up on a dairy farm in East Galway. Her love for animals began from a young age, where there was never a shortage of cows, horses, sheep, dogs and cats on the farm. She graduated from the University of Galway in 2001 with a Bachelor of Science in Biochemistry. After earning her first degree, she worked in the pharmaceutical and medical device industry for seven years before studying Veterinary Medicine at the University of Glasgow, graduating in 2014. In 2012, Sara was awarded a prestigious externship to Senegal, where she spent three months working on a project with World Horse Welfare.</p> <p>After graduating, Sara worked in Wales and Longford, both mixed practice, before moving home to Galway. She has a keen interest in small-animal dentistry. A keen sportswoman, Sara has both club and county All-Ireland medals for camogie. While at university in Glasgow, she also played shinty internationally! Today in her free time, Sara enjoys playing in her tag-rugby league, as well as spending time with her son Billy, husband Rob, and her two dogs Blackie and Sparky.</p>
       - name: John Mulligan, BVMS
-        role: Director & Vet
+        role: Director & Veterinary Surgeon
         image: assets/img/team/john.jpg
         text: <p>John a native of Bearna, has always had an interest in medicine, science and farming. He graduated from the University of Galway, with a Bachelor of Science in Microbiology in 2006, before studying Veterinary Medicine at the University of Glasgow. In final year, John was awarded the Don Haxby Memorial Prize for the greatest clinical competence in large animal clinical studies. After graduating, he started working in the North of England, followed by time working in Donegal and Offaly, before moving home to Galway. </p><p> John is a Gaeilgeoir and can regularly be heard on Radió na Gaeltachta, answering farmer & pet owner's questions. John also took part in the Irish language TV series 'Saol an Tréidlia' which was featured on RTÉ One. He has a true grá for the Irish language, and uses it in practice daily.</p> <p>John has a keen interest in the care of the geriatric patient and their particular needs as they approach their 'golden years'. John has a cat named Tortina, a Hungarian Vizsla named Rua, as well as several horses.</p>
 
