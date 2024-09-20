@@ -1,3 +1,10 @@
+<header class="category-header">
+  <div class="category-text">
+    {{site.data.sitetext[site.locale].gallery.facilities.header-text}}
+    <!-- <h3 class="section-subheading text-uppercase"> {{ site.data.sitetext[site.locale].gallery.facilities.header-text }}</h3> -->
+  </div>
+</header>
+
 <div class="gallery_container">
   <div class="gallery">
     <div class="row text-center">
@@ -6,6 +13,7 @@
         <img class="gallery-image rounded" src="{{ image.image_path }}" alt="{{ image.title }}"/>
       </div>
       {% endfor %}
+    </div>
     </div>
   </div>
 </div>

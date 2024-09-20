@@ -144,6 +144,7 @@ en: &DEFAULT_EN
     animals:
       section: gallery
       title: Gallery
+      header-text: Patient Gallery!
       images:
         - image_path: assets/img/gallery/cat.png
           title: Cat
@@ -222,10 +223,11 @@ en: &DEFAULT_EN
         - image_path: assets/img/gallery/calf_at_clinic.jpg
           title: Calf at clinic
         - image_path: assets/img/gallery/calves_wall.jpg
-          title: Calves 
+          title: Calves
     facilities:
       section: gallery
       title: Facilities Gallery
+      header-text: Our facilities
       images:
         - image_path: assets/img/facilities/anaesthetic_machine.jpg
           title: Cat

@@ -21,7 +21,7 @@
             <i class="{{ service.icon }} fa-stack-1x fa-inverse"></i>
           {% endif %}
         </span>
-          <h4 class="service-heading">{{ service.title | markdownify }}</h4>
+          <h4 class="category-text">{{ service.title | markdownify }}</h4>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
         </div>
     {% endfor %}
