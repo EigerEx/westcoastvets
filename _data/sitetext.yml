@@ -19,7 +19,7 @@ en: &DEFAULT_EN
         buttonlink: "#services"
       - name: contact
         title: Emergency
-        icon: fas fa-bolt
+        icon: fas fa-phone
         buttonlink: "#contact"
 
   services:

@@ -27,15 +27,9 @@ fonts_urls:
 
 # Set custom fonts
 fonts:
-  - name: "Kaushan Script"
-    for: "script"
-  - name: "Droid Serif"
-    for: "serif"
-  - name: "Roboto Slab"
-    for: "body"
-  - name: "Permanent Marker"
-    for: "marker"
-  - name: "Montserrat"
-    for: "heading"
   - name: "Quicksand"
     for: "quicksand"
+  - name: "Roboto Slab"
+    for: "body"
+  - name: "Montserrat"
+    for: "heading"

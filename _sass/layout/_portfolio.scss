@@ -68,8 +68,8 @@
       }
       p {
         font-size: 16px;
-        font-style: italic;
-        @include serif-font;
+        font-style: normal;
+        @include quicksand-font;
       }
     }
   }
