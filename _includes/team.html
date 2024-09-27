@@ -11,9 +11,11 @@
   {% for person in site.data.sitetext[site.locale].team.people %}
 	<div class="col-sm-8 col-md-4">
 	  <div class="team-member">
-		<a href="/team"><img class="mx-auto rounded-circle team-photo" src="{{ person.image }}" alt="{{person.name}}"></a>
+		<a href="/team#{{ person.name }}"><img class="mx-auto rounded-circle team-photo" src="{{ person.image }}" alt="{{person.name}}"></a>
 		<h4>{{ person.name }}</h4>
-		<p class="text-muted">{{ person.role }}</p>
+		<a class="text-muted">{{ person.role }}</a>
+		<br>
+		<a class="text-muted" href="/team#{{ person.name }}"><u> read more </u></a>
 		<ul class="list-inline social-buttons">
 		{% for network in person.social %}
 		  <li class="list-inline-item">

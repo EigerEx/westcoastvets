@@ -1,7 +1,7 @@
 <div class="row d-flex justify-content-center">
     {% for person in site.data.sitetext[site.locale].team.people %}
       <div class="col-sm-8">
-        <div class="team-member">
+        <div class="team-member" id="{{ person.name }}">
           <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{person.name}}">
           <h4>{{ person.name }}</h4>
           <p class="text-muted">{{ person.role }}</p>
