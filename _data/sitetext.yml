@@ -250,7 +250,7 @@ en: &DEFAULT_EN
       section: testimonials
       reviews:
         - name: Treasa
-          profile-pic: https://scontent-fra3-1.xx.fbcdn.net/v/t1.18169-1/12316650_951874071524925_1559835515699730702_n.jpg?stp=c0.120.720.720a_cp0_dst-jpg_s40x40&_nc_cat=101&ccb=1-7&_nc_sid=e4545e&_nc_ohc=Vqcg5mWIod4Q7kNvgGpS1_a&_nc_ht=scontent-fra3-1.xx&oh=00_AYBLtH9fgau1UNBcRFwgEl-Nih-xj_3fePMiVuyzLfs7Ng&oe=670278AD
+          profile-pic: https://i.imgur.com/mk2acnc.jpeg
           text: Brought our puppy for its first visit to this practice & had a wonderful experience. A thorough check up, we didn’t feel rushed & the vet was happy to answer any questions we had regarding puppy care. We got great advice regarding; worming etc.. He was so gentle & caring, our dog loved him even after its vaccine! Míle buíochas!
           stars: 5
         - name: Stephanie
@@ -276,6 +276,14 @@ en: &DEFAULT_EN
         - name: Mairéad
           profile-pic: https://lh3.googleusercontent.com/a-/ALV-UjVBFYDrJGvDApe68myjeUjJSylmXydvo8NOMr41mfUZDJxhS-mKew=w45-h45-p-rp-mo-ba4-br100
           text: Fantastic. My dog needed her leg amputated and they were so nice with her and kept me updated and gave me follow up call when she came home to make sure she was feeling ok. From the first day i bought my dog here they have been amazing. Diaz loves them... I mean dogs don't usually exactly like going to the vets but Diaz loves these vets! Couldn't recommend them enough!
+          stars: 5
+        - name: Lisa
+          profile-pic: https://lh3.googleusercontent.com/a/ACg8ocJ2Iug57sUfVuYoLfg0RQ0yACuI21cFpMJ4b9XpOdoF2ljTVfQ=w80-h80-p-rp-mo-br100
+          text: The staff are extremely helpful and sweet. Everything was explained clearly, and they were so patient. Enzo was treated incredibly well and kindly. Couldn't be happier nor could I recommend them more 🧡 …
+          stars: 5
+        - name: Anthony
+          profile-pic: https://lh3.googleusercontent.com/a-/ALV-UjU2ZVtbrTzrqfZn-B8PSc80xyXEKP-seC_SvB169YRKBH2RVcIK=w80-h80-p-rp-mo-ba3-br100
+          text: Thank you so much. REX thanks you for the lampshade. He came out of surgery completely relaxed. My dog thought he was on a vacation. I was more worried than he was. Shows how good they are in fixing the animals but also making them feel comfortable.
           stars: 5
 
 

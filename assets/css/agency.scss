@@ -28,6 +28,9 @@ $header-image: "{{ site.data.style.header-image }}";
 $contact-image: "{{ site.data.style.contact-image }}";
 $portfolio-image: "{{ site.data.style.portfolio-image }}";
 $about-image: "{{ site.data.style.about-image }}";
+$small-header-image: "{{ site.data.style.small-header-image }}";
+$equine-header-image: "{{ site.data.style.equine-header-image }}";
+$large-header-image: "{{ site.data.style.large-header-image }}";
 
 // Global CSS
 @import "base/page.scss";
