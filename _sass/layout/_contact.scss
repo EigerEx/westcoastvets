@@ -4,21 +4,19 @@ section#contact {
   background-image: url("#{$contact-image}");
   background-repeat: no-repeat;
   background-position: center;
-  // .contact-row{
-  //   background-color: $yellow;
-  //   border: 5px $gray-200 solid;
-  //   padding-top: 5%;
-  //   padding-bottom: 5%;
-  // }
-  .contact-phone{
+  font-size: 24px;
+    .contact-phone{
+    font-size: 34px;
     color: $yellow;
     margin-top: 0;
     margin-bottom: 15px;
     font-family: monospace;
-    width: 160px;
+    width: 300px;
+    align-items: center;
     .contact-phone-icon{
       float: left;
-      color: rgb(0, 135, 41);;
+      color: $energy;
+      margin-right: 15px;
     }
     .contact-phone-text{
       float: right;
@@ -33,19 +31,22 @@ section#contact {
     }
   }
   .contact-email{
+    font-size: 34px;
     color: $yellow;
     margin-top: 20px;
     margin-bottom: 35px;
     font-family: monospace;
+    align-items: center;
     .contact-email-icon{
       padding-right: 15px;
-      color: rgb(2, 214, 129);
+      color:  $energy;
     }
     .contact-email-text{
       float: right;
     }
   }
   .contact-address{
+    font-size: 34px;
     margin-top: 0;
     margin-bottom: 15px;
     color: $yellow;
@@ -61,14 +62,14 @@ section#contact {
       .contact-address-text{
         font-family: monospace;
         font-style: normal;
-        font-size: 12px;
+        font-size: 18px;
       }
       .contact-address-eircode{
         font-family: monospace;
       }
       .contact-address-icon{
         padding-right: 30px;
-        color: rgb(0, 213, 64);
+        color:  $energy;
         line-height: normal;
       }
     }
@@ -78,7 +79,7 @@ section#contact {
     background-color: $gray-200;
     caption{
       font-style: italic;
-      font-size: 14px;
+      font-size: 22px;
     }
   }
   .contact-map{

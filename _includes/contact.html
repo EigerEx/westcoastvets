@@ -9,12 +9,12 @@
         <!-- phone numbers -->
         {% for phone in site.data.sitetext[site.locale].contact.phones %}
         <row class="row justify-content-center">
-          <a class="contact-phone"
-            {% if phone.number-tel-link %} href="tel:{{ phone.number-tel-link }}" {% endif %}
+          <a class="contact-phone d-flex"
+          {% if phone.number-tel-link %} href="tel:{{ phone.number-tel-link }}" {% endif %}
           >
-            {% if phone.icon %} <i class="{{ phone.icon }} contact-phone-icon"></i>{% endif %}
-            <div class="contact-phone-text {% if phone.number-tel-link %} contact-phone-linked {% endif %}">{{ phone.number }}</div>
-          </a>
+          {% if phone.icon %} <i class="{{ phone.icon }} contact-phone-icon "></i>{% endif %}
+        <div class="contact-phone-text {% if phone.number-tel-link %} contact-phone-linked {% endif %}">{{ phone.number }}</div>
+        </a>
         </row>
         {% endfor %}
 

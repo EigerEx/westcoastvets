@@ -25,7 +25,7 @@ en: &DEFAULT_EN
   services:
     section: services
     title: Services
-    text: West Coast Vets offers extensive services for small, large and equine animals, all delivered by our expert staff.
+    text: West Coast Vets offers a wide range of services for small, large and equine animals, all delivered by our expert staff.
     list:
       - title: Small Animals
         desc: Surgery, dental, neutering, vaccination, microchipping, and more
@@ -42,7 +42,7 @@ en: &DEFAULT_EN
   services_small:
     section: services_small
     title: Small Animals Services
-    text: We offer a plethora of services delivered by our expert staff
+    text: We offer a wide of services delivered by our expert staff
     list:
       - title: Vaccinations & Health Checks
         desc: We strongly recommend bringing your pet to the vet at least once a year. These annual check-ups are essential for picking up any health concerns. These comprehensive exams include a thorough physical assessment, vaccinations and preventative care tailored to your pet’s age and needs. Regular health checks help detect potential issues early, ensuring timely treatment and promoting overall well-being. Vaccinations are essential in protecting your pet against potentially fatal diseases.
@@ -83,7 +83,7 @@ en: &DEFAULT_EN
   services_large:
     section: services_large
     title: Large Animal Services
-    text: We offer a plethora of services delivered by our expert staff
+    text: We offer a wide of services delivered by our expert staff
     list:
       - title: Call-outs & 24hr emergency service
         desc: We provide 24hr emergency service for all registered large animal clients.
@@ -110,7 +110,7 @@ en: &DEFAULT_EN
   services_equine:
     section: services_equine
     title: Equine Services
-    text: We offer a plethora of services delivered by our expert staff
+    text: We offer a wide of services delivered by our expert staff
     list:
       - title: Call-outs & 24hr emergency service
         desc: We provide 24hr emergency service for all registered equine clients.
@@ -144,7 +144,7 @@ en: &DEFAULT_EN
     animals:
       section: gallery
       title: Gallery
-      header-text: Patient Gallery!
+      header-text: Gallery
       images:
         - image_path: assets/img/gallery/cat.png
           title: Cat
@@ -229,7 +229,7 @@ en: &DEFAULT_EN
       title: Facilities Gallery
       header-text: Our facilities
       images:
-        - image_path: assets/img/facilities/anaesthetic_machine.jpg
+        - image_path: assets/img/facilities/anaesthetic_machine_square.png
           title: Cat
         - image_path: assets/img/facilities/clinic.jpg
           title: clinic
@@ -241,7 +241,7 @@ en: &DEFAULT_EN
           title: dental machine
         - image_path: assets/img/facilities/horse_stock.jpeg
           title: horse stock
-        - image_path: assets/img/facilities/in_house_blood_machines.jpg
+        - image_path: assets/img/facilities/in_house_blood_machines_square.png
           title: in house blood machines
         - image_path: assets/img/facilities/ultrasound.jpg
           title: ultrasound
@@ -307,7 +307,7 @@ en: &DEFAULT_EN
     text: Contact us
     phones:
       - number: 091 867455
-        number-tel-link: +35391867455
+        number-tel-link: "+35391867455"
         icon: fas fa-solid fa-phone
         comment: office phone
     email: westcoastvetsbearna@outlook.com
@@ -326,8 +326,8 @@ en: &DEFAULT_EN
         status: Closed
       - day: Bank holidays
         status: Closed
-    timetable-caption: We may be unavailable during lunch (13:00-14:00)
-    timetable-caption-italics: Open 24hrs for emergencies
+    timetable-caption: We are closed between 13:00 and 14:00.
+    timetable-caption-italics: Open 24/7 for emergencies
 
   footer:
     legal: Privacy Policy
