@@ -46,6 +46,22 @@
     }
   }
 }
+
+@media (min-width: 0px) {
+  #mainNav {
+  .nav-logo{
+    height: 40px;
+  }
+  }
+}
+@media (min-width: 480px) {
+  #mainNav {
+  .nav-logo{
+    height: 50px;
+  }
+  }
+}
+
 // Desktop application
 @media (min-width: 768px) {
   #mainNav {
@@ -58,6 +74,9 @@
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     border-bottom: 3px rgba( 00, 00, 00, 0.7) solid;
+    .nav-logo{
+      height: 60px;
+    }
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -102,5 +121,13 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  #mainNav {
+  .nav-logo{
+    height: 80px;
+  }
   }
 }
