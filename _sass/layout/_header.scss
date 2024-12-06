@@ -38,6 +38,37 @@ header.masthead {
     margin-right: 5px;
     height: 100%;
   }
+  .contact-phone{
+    color: $black;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-weight: 700;
+    text-shadow: 2px 0px 2px $white,
+                 -2px 0px 2px $white,
+                 0px 2px 2px $white,
+                 0px -2px 2px $white;
+    font-family: monospace;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    .contact-phone-icon{
+      float: left;
+      color: $black;
+      margin-right: 15px;
+      font-size: 28px;
+    }
+    .contact-phone-icon--top {
+      align-self: flex-start;
+    }
+    .contact-phone-linked{
+      &:focus,
+      &:active,
+      &:hover{
+        font-style: underline;
+        color: $energy;
+      }
+    }
+  }
 }
 @media (min-width: 768px) {
   header.masthead {

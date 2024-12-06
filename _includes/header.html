@@ -34,6 +34,17 @@
             </a>
           {% endfor %}
 
+                  <!-- phone numbers -->
+        {% for phone in site.data.sitetext[site.locale].contact.phones %}
+        <row class="row justify-content-center d-inline-flex">
+          <a class="contact-phone d-flex" href="tel:{{ phone.number-tel-link }}" >
+            <i class="{{ phone.icon }} contact-phone-icon justify-content-center"></i>
+            <div class="contact-phone-text {% if phone.number-tel-link %} contact-phone-linked {% endif %}">{{ phone.number }}</div>
+          </a>
+        </row>
+        {% endfor %}
+
+
       </div>
     </div>
   </div>
