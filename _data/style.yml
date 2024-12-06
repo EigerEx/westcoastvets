@@ -14,7 +14,7 @@ about-image: "/assets/img/background_splash_skinny.png"
 contact-image: "/assets/img/contact.png"
 small-header-image: "/assets/img/services/dog_bog_cotton.jpg"
 equine-header-image: "/assets/img/services/horse_landscape.jpg"
-large-header-image: "/assets/img/services/cow_landscape.jpg"
+large-header-image: "/assets/img/services/vintage_cows_in_field.jpeg"
 
 #Font Awesome icon for portfolio grid when an item is hovered over
 #portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
