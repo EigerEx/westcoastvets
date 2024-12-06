@@ -6,7 +6,6 @@ section#contact {
   background-position: center;
   font-size: 24px;
     .contact-phone{
-    font-size: 34px;
     color: $yellow;
     margin-top: 0;
     margin-bottom: 15px;
@@ -31,7 +30,6 @@ section#contact {
     }
   }
   .contact-email{
-    font-size: 34px;
     color: $yellow;
     margin-top: 20px;
     margin-bottom: 35px;
@@ -46,7 +44,6 @@ section#contact {
     }
   }
   .contact-address{
-    font-size: 34px;
     margin-top: 0;
     margin-bottom: 15px;
     color: $yellow;
@@ -62,10 +59,6 @@ section#contact {
       .contact-address-text{
         font-family: monospace;
         font-style: normal;
-        font-size: 18px;
-      }
-      .contact-address-eircode{
-        font-family: monospace;
       }
       .contact-address-icon{
         padding-right: 30px;
@@ -109,8 +102,6 @@ ul.social-buttons {
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
-      // background: linear-gradient(  #f9ce34, #ee2a7b, #6228d7);
-      // color: $dark;
       border-radius: 100%;
       border: 3px solid $white;
       background-color: $dark;
@@ -139,5 +130,28 @@ ul.social-buttons {
     &:hover {
       background: #2d4679;
     }
+  }
+}
+
+@media (min-width: 0px) {
+  .contact-phone,
+  .contact-email,
+  .contact-address {
+    font-size: 18px;
+  }
+}
+@media (min-width: 576px) {
+  .contact-phone,
+  .contact-email,
+  .contact-address {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-phone,
+  .contact-email,
+  .contact-address {
+    font-size: 34px;
   }
 }
