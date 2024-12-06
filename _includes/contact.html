@@ -11,7 +11,7 @@
         <row class="row justify-content-center d-inline-flex">
           <a class="contact-phone d-flex" href="tel:{{ phone.number-tel-link }}" >
             <i class="{{ phone.icon }} contact-phone-icon "></i>
-            <p class="contact-phone-text {% if phone.number-tel-link %} contact-phone-linked {% endif %}">{{ phone.number }}</p>
+            <div class="contact-phone-text {% if phone.number-tel-link %} contact-phone-linked {% endif %}">{{ phone.number }}</div>
           </a>
         </row>
         {% endfor %}
@@ -20,7 +20,7 @@
         <row class="row justify-content-center">
           <a class="contact-email d-flex">
             <i class="{{ site.data.sitetext[site.locale].contact.email-icon }} contact-email-icon"></i>
-            <p class="contact-email-text copy-to-clipboard user-select-all">{{ site.data.sitetext[site.locale].contact.email }}</p>
+            <div class="contact-email-text copy-to-clipboard user-select-all">{{ site.data.sitetext[site.locale].contact.email }}</div>
           </a>
         </row>
 

@@ -323,7 +323,7 @@ en: &DEFAULT_EN
     address-eircode: H91 F827
     address-text: Truskey West, Bearna, Co.Galway
     address-map-hyperlink: "https://maps.app.goo.gl/58gHYoNKrzfCTGPG6"
-    address-icon: fas fa-solid fa-2xl fa-map-location-dot
+    address-icon: fas fa-solid fa-map-location-dot
     table-name: Opening hours
     timetable:
       - day: Monday to Friday
