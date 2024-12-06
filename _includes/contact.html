@@ -8,13 +8,11 @@
 
         <!-- phone numbers -->
         {% for phone in site.data.sitetext[site.locale].contact.phones %}
-        <row class="row justify-content-center">
-          <a class="contact-phone d-flex"
-          {% if phone.number-tel-link %} href="tel:{{ phone.number-tel-link }}" {% endif %}
-          >
-          {% if phone.icon %} <i class="{{ phone.icon }} contact-phone-icon "></i>{% endif %}
-        <div class="contact-phone-text {% if phone.number-tel-link %} contact-phone-linked {% endif %}">{{ phone.number }}</div>
-        </a>
+        <row class="row justify-content-center d-inline-flex">
+          <a class="contact-phone d-flex" href="tel:{{ phone.number-tel-link }}" >
+            <i class="{{ phone.icon }} contact-phone-icon "></i>
+            <p class="contact-phone-text {% if phone.number-tel-link %} contact-phone-linked {% endif %}">{{ phone.number }}</p>
+          </a>
         </row>
         {% endfor %}
 
