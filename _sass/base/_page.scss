@@ -53,6 +53,16 @@ a {
     @include quicksand-font;
   }
 }
+// This overrides the default header splash images.
+.equine-category-header {
+  background-image: url("#{$equine-header-image}");
+}
+.large-category-header {
+  background-image: url("#{$large-header-image}");
+}
+.small-category-header {
+  background-image: url("#{$small-header-image}");
+}
 
 .section-subheading-black {
   color: black !important;
