@@ -62,6 +62,16 @@
     line-height: 14px;
     margin-top: 25px;
   }
+  // This overrides the default header splash images.
+  .equine-category-header {
+    background-image: url("#{$equine-header-image}");
+  }
+  .large-category-header {
+    background-image: url("#{$large-header-image}");
+  }
+  .small-category-header {
+    background-image: url("#{$small-header-image}");
+  }
 }
 .services-nav{
   padding-top: 30px;
@@ -100,16 +110,6 @@
         @include quicksand-font;
       }
     }
-  }
-  // This overrides the default header splash images.
-  .equine-category-header {
-    background-image: url("#{$equine-header-image}");
-  }
-  .large-category-header {
-    background-image: url("#{$large-header-image}");
-  }
-  .small-category-header {
-    background-image: url("#{$small-header-image}");
   }
 }
 @media (min-width: 992px) {
