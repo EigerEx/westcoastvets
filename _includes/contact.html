@@ -18,10 +18,14 @@
 
         <!-- email -->
         <row class="row justify-content-center">
-          <a class="contact-email d-flex">
-            <i class="{{ site.data.sitetext[site.locale].contact.email-icon }} contact-email-icon"></i>
-            <div class="contact-email-text copy-to-clipboard user-select-all">{{ site.data.sitetext[site.locale].contact.email }}</div>
-          </a>
+        <a class="contact-email d-flex"
+          href="mailto:{{ site.data.sitetext[site.locale].contact.email }}">
+          <i class="{{ site.data.sitetext[site.locale].contact.email-icon }} contact-email-icon"></i>
+          <div class="contact-email-text user-select-all">
+            <!-- add "copy-to-clipboard" class for copy script -->
+            {{ site.data.sitetext[site.locale].contact.email }}
+          </div>
+        </a>
         </row>
 
         <!-- address -->
